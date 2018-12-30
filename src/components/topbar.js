@@ -15,10 +15,10 @@ const Topbar = () => (
     <div className="d-flex justify-content-lg-between justify-content-md-center align-items-center h-100 container-fluid">
       <ul className="list-inline p-2">
         <li className="list-inline-item">
-          <a className="d-flex align-items-center p-1 text-white" href="#google-map">
+          <Link className="d-flex align-items-center p-1 text-white" href="#google-map">
             <FaMapMarkerAlt size={12} style={{marginRight:'5px'}}/>
             <span>Λεωφόρος Κωνσταντινουπόλεως 63, Περιστέρι</span>
-          </a>
+          </Link>
         </li>
         <li className="list-inline-item">
           <a className="d-flex align-items-center p-1 text-white" href="tel:2130 575052">
