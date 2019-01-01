@@ -2,16 +2,16 @@
     min-height: 2rem;
     background-color:#00944d;
 
-    a {
-
+    .contact-link {
+        font-size: .87rem;
         position: relative;
     }
-    a:before {
+    .contact-link:before {
         content: "";
         position: absolute;
         width: 100%;
         height: 2px;
-        bottom: -2px;
+        bottom: -1px;
         left: 0;
         background-color: currentColor;
         visibility: hidden;
@@ -19,7 +19,7 @@
         transform: scaleX(0);
         transition: all .59s cubic-bezier(.4,0,.2,1) 0s;
     }
-    a:hover:before {
+    .contact-link:hover:before {
         opacity: 1;
         visibility: visible;
         transform: scaleX(1);
@@ -27,4 +27,14 @@
     ul{
         margin-bottom: 0;
     }
+
+    @include media-breakpoint-down(md) { 
+        ul:first-child{
+            li a{
+                font-size: 1.1rem;
+            }
+            flex-grow: 1;
+            justify-content:space-between; 
+        }
+     }
 }

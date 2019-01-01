@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby'
+import data from '../../data/topbar.yml';
+
 import {
   FaMapMarkerAlt,
   FaPhone,
@@ -12,33 +13,33 @@ import {
 
 const Topbar = () => (
   <div className="top-bar sticky-top">
-    <div className="d-flex justify-content-lg-between justify-content-md-center align-items-center h-100 container-fluid">
-      <ul className="list-inline p-2">
-        <li className="list-inline-item">
-          <Link className="d-flex align-items-center p-1 text-white" href="#google-map">
+    <div className="d-flex justify-content-lg-between align-items-center h-100 container">
+      <ul className="d-flex list-inline p-2">
+        <li className="d-none d-lg-inline-flex list-inline-item">
+          <a className="d-flex align-items-center p-1 text-white contact-link" href="#google-map">
             <FaMapMarkerAlt size={12} style={{marginRight:'5px'}}/>
-            <span>Λεωφόρος Κωνσταντινουπόλεως 63, Περιστέρι</span>
-          </Link>
+            <span>{data.contact.address}</span>
+          </a>
         </li>
         <li className="list-inline-item">
-          <a className="d-flex align-items-center p-1 text-white" href="tel:2130 575052">
+          <a className="d-flex align-items-center p-1 text-white contact-link" href="tel:2130575052">
             <FaPhone size={12} style={{marginRight:'5px'}}/>
-            <span>2130 575052</span>
+            <span>{data.contact.phone}</span>
           </a>
         </li>
         <li className="list-inline-item">
-          <a className="d-flex align-items-center p-1 text-white" href="tel:6947 556211">
+          <a className="d-flex align-items-center p-1 text-white contact-link" href="tel:6947556211">
             <FaMobileAlt size={12} style={{marginRight:'5px'}}/>
-            <span>6947 556211</span>
+            <span>{data.contact.mobile}</span>
           </a>
         </li>
-        <li className="list-inline-item">
+        <li className="d-none d-lg-inline-flex list-inline-item">
           <a
-            className="d-flex align-items-center p-1 text-white"
+            className="d-flex align-items-center p-1 text-white contact-link"
             href="mailto:kostasboukonis@gmail.com"
           >
             <FaEnvelope size={14} style={{marginRight:'5px'}}/>
-            kostasboukonis@gmail.com
+            {data.contact.email}
           </a>
         </li>
       </ul>
@@ -46,7 +47,7 @@ const Topbar = () => (
         <li className="list-inline-item">
           <a
             className="d-flex align-items-center p-1 text-white"
-            href="https://www.facebook.com/ConsultantENTSurgeonRhinologist"
+            href={data.facebook}
             target="_blank"
           >
             <FaFacebook size={20} style={{marginRight:'5px'}}/>
@@ -55,7 +56,7 @@ const Topbar = () => (
         <li className="list-inline-item">
           <a
             className="d-flex align-items-center p-1 text-white"
-            href="https://twitter.com/Cons_ENTSurgeon"
+            href={data.twitter}
             target="_blank"
           >
             <FaTwitter size={20} style={{marginRight:'5px'}}/>
@@ -64,7 +65,7 @@ const Topbar = () => (
         <li className="list-inline-item">
           <a
             className="d-flex align-items-center p-1 text-white"
-            href="https://plus.google.com/u/0/106223965710849406721"
+            href={data.google}
             target="_blank"
           >
             <FaGooglePlusG size={20} style={{marginRight:'5px'}}/>
