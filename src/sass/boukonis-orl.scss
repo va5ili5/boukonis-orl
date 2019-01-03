@@ -1,10 +1,15 @@
-@import '~bootstrap-scss/_functions.scss';
-@import '~bootstrap-scss/_variables.scss';
+@import '~bootstrap/scss/_functions.scss';
+@import '~bootstrap/scss/_variables.scss';
 
 $link-hover-decoration:none;
 
-
-
 @import 'reset';
-@import '~bootstrap-scss/bootstrap.scss';
+@import '~bootstrap/scss/bootstrap.scss';
 @import 'base';
+
+
+@include media-breakpoint-up(md){
+    .navbar-expand-md {
+        justify-content: center;
+    }
+}

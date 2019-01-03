@@ -3,84 +3,77 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
-import Logo from '../images/logo.svg'
-const Header = () => (
-  <header className="header">
-    <div className="d-flex-column justify-content-center align-items-center mt-4 mb-4 container">
-      <div
-        className="d-flex logo"
-        style={{ }}
-      >
-        <img
-          className="img-fluid"
-          src={Logo}
-          alt="logo"
-          style={{ width: '100%' }}
-        />
-      </div>
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
+import Logo from '../images/logo.svg';
+import menu from '../../data/navigation.yml';
+import {
+  Media,
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+  UncontrolledDropdown,
+  DropdownToggle,
+  DropdownMenu,
+  DropdownItem } from 'reactstrap';
 
-        <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav mr-auto">
-            <li className="nav-item active">
-              <a className="nav-link" href="#">
-                Home <span className="sr-only">(current)</span>
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Link
-              </a>
-            </li>
-            <li className="nav-item dropdown">
-              <a
-                className="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-toggle="dropdown"
-                aria-haspopup="true"
-                aria-expanded="false"
-              >
-                Dropdown
-              </a>
-              <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a className="dropdown-item" href="#">
-                  Action
-                </a>
-                <a className="dropdown-item" href="#">
-                  Another action
-                </a>
-                <div className="dropdown-divider" />
-                <a className="dropdown-item" href="#">
-                  Something else here
-                </a>
-              </div>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link disabled" href="#">
-                Disabled
-              </a>
-            </li>
-          </ul>
-        </div>
-      </nav>
+  export default class Header extends React.Component {
+    constructor(props) {
+      super(props);
+  
+      this.toggle = this.toggle.bind(this);
+      this.state = {
+        isOpen: false
+      };
+    }
+    toggle() {
+      this.setState({
+        isOpen: !this.state.isOpen
+      });
+    }
+  render(){
+    return (
+     <header className="header">
+    <div className="d-flex-column align-items-center mt-4 mb-4 container-fluid">
+    <Navbar light expand="md">
+          <NavbarBrand href="/">
+          <Media left>
+        <Media object src={Logo} alt="Logo" />
+      </Media></NavbarBrand>
+          <NavbarToggler onClick={this.toggle} />
+      </Navbar>
+      <Navbar light expand="md">
+          <Collapse isOpen={this.state.isOpen} navbar>
+            <Nav className="ml-auto mr-auto" navbar>
+            {menu.map((menuitem, index) => {
+              if(menuitem.sublinks !== undefined){
+                return <UncontrolledDropdown key={index} nav inNavbar>
+                <DropdownToggle nav caret>
+                {menuitem.title}
+                <DropdownMenu right>
+                  {menuitem.sublinks.map((sublink, index) =>{
+                     return <DropdownItem key={index}>
+                       {sublink.title}
+                    </DropdownItem>
+                  })}
+                  </DropdownMenu>
+                  </DropdownToggle>
+                </UncontrolledDropdown>
+              }else{
+                return <NavItem key={index}>
+                  <NavLink href={menuitem.url}>{menuitem.title}</NavLink>
+                </NavItem>
+              }
+            })}
+              
+            </Nav>
+          </Collapse>
+        </Navbar>
+      
     </div>
   </header>
-)
-
-export default Header
+    )
+}
+  }

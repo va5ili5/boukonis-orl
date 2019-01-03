@@ -6,7 +6,6 @@ import Header from './header'
 import Topbar from './topbar';
 import '../sass/boukonis-orl.scss'
 
-
 const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
