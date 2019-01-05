@@ -1,11 +1,9 @@
-@import '~bootstrap/scss/_functions.scss';
-@import '~bootstrap/scss/_variables.scss';
-
-$link-hover-decoration:none;
-
 @import 'reset';
 @import '~bootstrap/scss/bootstrap.scss';
+@import 'variables';
 @import 'base';
+@import 'layout';
+@import 'modules';
 
 
 @include media-breakpoint-up(md){
@@ -13,3 +11,4 @@ $link-hover-decoration:none;
         justify-content: center;
     }
 }
+

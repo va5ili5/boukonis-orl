@@ -1,8 +1,8 @@
-import { Link } from 'gatsby'
-import PropTypes from 'prop-types'
+//import { Link } from 'gatsby'
+//import PropTypes from 'prop-types'
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+//import { StaticQuery, graphql } from 'gatsby'
+//import Img from 'gatsby-image'
 import Logo from '../images/logo.svg';
 import menu from '../../data/navigation.yml';
 import {
@@ -18,7 +18,7 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem } from 'reactstrap';
-
+  import { Link as RRNavLink } from 'gatsby';
   export default class Header extends React.Component {
     constructor(props) {
       super(props);
@@ -38,7 +38,7 @@ import {
      <header className="header">
     <div className="d-flex-column align-items-center mt-4 mb-4 container-fluid">
     <Navbar light expand="md">
-          <NavbarBrand href="/">
+          <NavbarBrand tag={RRNavLink} to="/">
           <Media left>
         <Media object src={Logo} alt="Logo" />
       </Media></NavbarBrand>
@@ -63,8 +63,8 @@ import {
                 </UncontrolledDropdown>
               }else{
                 return <NavItem key={index}>
-                  <NavLink href={menuitem.url}>{menuitem.title}</NavLink>
-                </NavItem>
+                  <NavLink tag={RRNavLink} active={window.location.pathname === menuitem.url} to={menuitem.url}>{menuitem.title}</NavLink>
+                  </NavItem>
               }
             })}
               

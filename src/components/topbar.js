@@ -49,6 +49,7 @@ const Topbar = () => (
             className="d-flex align-items-center p-1 text-white"
             href={data.facebook}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaFacebook size={20} style={{marginRight:'5px'}}/>
           </a>
@@ -58,6 +59,7 @@ const Topbar = () => (
             className="d-flex align-items-center p-1 text-white"
             href={data.twitter}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaTwitter size={20} style={{marginRight:'5px'}}/>
           </a>
@@ -67,6 +69,7 @@ const Topbar = () => (
             className="d-flex align-items-center p-1 text-white"
             href={data.google}
             target="_blank"
+            rel="noopener noreferrer"
           >
             <FaGooglePlusG size={20} style={{marginRight:'5px'}}/>
           </a>
