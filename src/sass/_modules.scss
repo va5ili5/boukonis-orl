@@ -2,22 +2,43 @@
 .contact-link {
     font-size: .87rem;
     position: relative;
+    color: $primary-link-color;
+    
+    &:hover{
+        color: $primary-link-color-hover;
+    }
 }
-.contact-link:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: -1px;
-    left: 0;
-    background-color: currentColor;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    transition: all .59s cubic-bezier(.4,0,.2,1) 0s;
-}
-.contact-link:hover:before {
-    opacity: 1;
-    visibility: visible;
-    transform: scaleX(1);
+// .contact-link:before {
+//     content: "";
+//     position: absolute;
+//     width: 100%;
+//     height: 2px;
+//     bottom: -3px;
+//     left: 0;
+//     background-color: currentColor;
+//     visibility: hidden;
+//     -webkit-transform: scaleX(0);
+//     transform: scaleX(0);
+//     transition: all .59s cubic-bezier(.4,0,.2,1) 0s;
+// }
+// .contact-link:hover:before {
+//     opacity: 1;
+//     visibility: visible;
+//     transform: scaleX(1);
+// }
+
+// social media icons
+$social-media-colors: (facebook: $fb-color, twitter: $twitter-color, googleplus: $google-plus-color);
+
+@each $social-media, $social-media-color in $social-media-colors {
+    .#{$social-media}{
+        color: $primary-link-color;
+    }
+    .#{$social-media}:hover {
+        color: $social-media-color;
+    }
+
+    .#{$social-media}:active {
+        color: $social-media-color;
+    }
 }

@@ -1,14 +1,13 @@
 .top-bar{
     min-height: 2rem;
-    background-color: $primary-bg-color;
+    background-color: $white;
+    border-bottom: 1px solid #dadada;
+}
 
-    @include media-breakpoint-down(md) { 
-        ul:first-child{
-            li a{
-                font-size: 1.1rem;
-            }
-            flex-grow: 1;
-            justify-content:space-between; 
-        }
-     }
+.navbar-light .navbar-nav .nav-link {
+    color: $primary-link-color;
+    font-size: 0.9rem;
+    &:hover{
+        color: $primary-link-color-hover;
+    }
 }
