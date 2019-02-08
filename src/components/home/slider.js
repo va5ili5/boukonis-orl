@@ -104,20 +104,3 @@ class Slider extends Component {
 }
 
 export default Slider
-
-export const query = graphql`
-  query ImagesQuery {
-    allFile(filter: { sourceInstanceName: { eq: "slider" } }) {
-      edges {
-        node {
-          sourceInstanceName
-          childImageSharp {
-            sizes(maxHeight: 400) {
-              ...GatsbyImageSharpSizes
-            }
-          }
-        }
-      }
-    }
-  }
-`
