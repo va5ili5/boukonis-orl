@@ -5,7 +5,9 @@ import Slider from '../components/home/slider';
 import About from '../components/home/about';
 import Clinic from '../components/home/clinic';
 import Coops from '../components/home/coops';
-import Services from '../components/home/services';
+import Surgeries from '../components/home/surgeries';
+import Articles from '../components/home/articles';
+import GMap from '../components/home/gmap';
 const IndexPage = () => (
   <Layout>
     <SEO title="Αρχική" />
@@ -13,7 +15,9 @@ const IndexPage = () => (
     <About/>
     <Clinic/>
     <Coops/>
-    <Services/>
+    <Surgeries/>
+    <Articles/>
+    <GMap/>
   </Layout>
 )
 

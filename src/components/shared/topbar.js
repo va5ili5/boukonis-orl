@@ -1,5 +1,5 @@
 import React from 'react'
-import data from '../../../data/topbar.yml';
+import data from '../../../data/topbar';
 import { Container } from 'reactstrap';
 import {
   FaMapMarkerAlt,
