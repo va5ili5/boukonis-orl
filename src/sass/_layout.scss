@@ -10,3 +10,12 @@
         color: $primary-link-color-hover;
     }
 }
+
+.footer{
+    .list-group-item{
+        padding: 0.40rem 0;
+    }
+    a.bg-dark:hover{
+        background-color: transparent!important;
+    }
+}

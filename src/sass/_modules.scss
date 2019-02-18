@@ -16,11 +16,19 @@ $social-media-colors: (facebook: $fb-color, twitter: $twitter-color, googleplus:
     .#{$social-media}{
         color: $primary-link-color;
     }
+    .footer-#{$social-media}{
+        color: white;
+    }
     .#{$social-media}:hover {
         color: $social-media-color;
     }
-
+    .footer-#{$social-media}:hover{
+        color: $social-media-color;
+    }
     .#{$social-media}:active {
+        color: $social-media-color;
+    }
+    .footer-#{$social-media}:active {
         color: $social-media-color;
     }
 }

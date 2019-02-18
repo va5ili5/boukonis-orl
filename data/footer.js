@@ -45,10 +45,18 @@ const timetable = {
         },
     ]
 }
+
+const socialMedia = {
+    facebook : 'https://facebook.com/ConsultantENTSurgeonRhinologist',
+    twitter : 'https://twitter.com/Cons_ENTSurgeon',
+    google : 'https://plus.google.com/u/0/106223965710849406721'
+}
+
 const footer ={
     about,
     menu,
-    timetable
+    timetable,
+    socialMedia
 }
 
 export default footer

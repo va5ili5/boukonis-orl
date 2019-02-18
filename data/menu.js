@@ -1,6 +1,6 @@
 const servicesLinks = [
     {
-        title: 'Εργαστήριο Αλλεργικής Ρινίτιδας &amp; Ρινολογίας', 
+        title: 'Εργαστήριο Αλλεργικής Ρινίτιδας & Ρινολογίας', 
         url:  '/services/laboratory-of-allergic-rhinitis-and-rhinology'
     },
     {
