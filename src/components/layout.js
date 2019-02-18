@@ -4,6 +4,7 @@ import { StaticQuery, graphql } from 'gatsby'
 import Topbar from './shared/topbar';
 import Header from './shared/header'
 import Footer from './shared/footer';
+import Credits from './shared/credits';
 import '../sass/boukonis-orl.scss'
 
 const Layout = ({ children }) => (
@@ -23,6 +24,7 @@ const Layout = ({ children }) => (
         <Header />
           {children}
         <Footer />
+        <Credits/>
       </>
     )}
   />

@@ -17,7 +17,7 @@ const { about, menu, timetable, socialMedia } = footer
 
 const Footer = () => (
   <footer className="footer bg-dark text-white mt-5">
-    <Container className="pt-5">
+    <Container className="pt-5 pb-5">
       <Row>
         <Col md={4}>
         <h4>{about.title}</h4>
