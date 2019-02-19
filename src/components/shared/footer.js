@@ -16,10 +16,10 @@ import footer from '../../../data/footer';
 const { about, menu, timetable, socialMedia } = footer
 
 const Footer = () => (
-  <footer className="footer bg-dark text-white mt-5">
-    <Container className="pt-5 pb-5">
+  <footer className="footer bg-dark text-white mt-5 pb-5">
+    <Container>
       <Row>
-        <Col md={4}>
+        <Col md={4} className="pt-5">
         <h4>{about.title}</h4>
         <NavbarBrand tag={RRNavLink} to="/">
               <Media left>
@@ -33,7 +33,7 @@ const Footer = () => (
         <ListGroupItem tag="a" href="mailto:kostasboukonis@gmail.com" className="bg-dark border-0" style={{color:'#999999'}}><FaEnvelope size={14} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.email}</ListGroupItem>
         </ListGroup>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="pt-5">
           <h4>{menu.title}</h4>
           <ListGroup>
             {menu.navmenu.map((menuitem, index) => {
@@ -45,7 +45,7 @@ const Footer = () => (
             })}
           </ListGroup>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="pt-5">
           <h4>{timetable.title}</h4>
           <ListGroup>
             {timetable.workingDays.map((workingDay, index) => {
