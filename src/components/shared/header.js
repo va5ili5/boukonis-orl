@@ -71,7 +71,7 @@ class Header extends Component {
                       <NavItem key={index}>
                         <NavLink
                           tag={RRNavLink}
-                          active={window.location.pathname === menuitem.url}
+                          activeClassName="active"
                           to={menuitem.url}
                           className="text-uppercase"
                         >

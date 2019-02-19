@@ -15,7 +15,7 @@ const About = () => (
                 {about.text.map((textLine, index) => {
                     return <p key={index}>{textLine}</p>
                 })}
-                <Button tag={RRNavLink} to="/" color="success">{about.buttonText}</Button>
+                <Button tag={RRNavLink} to="/about" color="success">{about.buttonText}</Button>
             </Col>
             <Col md={6}>
                 <Media left>
