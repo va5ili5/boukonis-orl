@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Media } from 'reactstrap';
-import ClinicImg from '../../images/about/3.png';
+import ClinicImg from '../../images/about/3.jpg';
 import ClinicData from '../../../data/indexPageData';
 const { clinic } = ClinicData;
 

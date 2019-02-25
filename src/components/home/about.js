@@ -1,6 +1,6 @@
 import React from  'react';
 import { Container, Row, Col, Media, Button } from 'reactstrap';
-import AboutImg from '../../images/about/10.png';
+import AboutImg from '../../images/about/10.jpg';
 import { Link as RRNavLink } from 'gatsby';
 import AboutData from '../../../data/indexPageData';
 const { about } = AboutData;

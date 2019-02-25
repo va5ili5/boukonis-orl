@@ -4,13 +4,15 @@
     border-bottom: 1px solid #dadada;
 }
 
+.about .contactDetails .list-group-item,
 .navbar-light .navbar-nav .nav-link {
     color: $primary-link-color;
     &:hover{
-        color: $primary-link-color-hover;
+        color: #00944D;
     }
 }
 
+.about,
 .footer{
     .list-group-item{
         padding: 0.40rem 0;
