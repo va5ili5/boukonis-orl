@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Container, Row, Col, Media, ListGroup, ListGroupItem } from 'reactstrap'
-import { FaMapMarkerAlt, FaPhone, FaMobileAlt, FaEnvelope } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaPhone, FaMobileAlt, FaEnvelope, FaDotCircle } from 'react-icons/fa'
 import { Link as RRNavLink } from 'gatsby';
 import AboutData from '../../data/aboutPageData';
 const { about, education } = AboutData;
@@ -37,7 +37,7 @@ const About = () => (
                         <h5 style={{fontWeight : '400', textDecoration:'underline', textTransform:'uppercase'}}>{education.title}</h5>
                         <ListGroup>
                             {education.edudetails.map((education, index) => {
-                                    return <ListGroupItem key={index} className="border-0">{education}</ListGroupItem>
+                                    return <ListGroupItem key={index} style={{listStyleType:'decimal', listStylePosition:'inside', display:'list-item'}} className="border-0" dangerouslySetInnerHTML={{ __html: education }}></ListGroupItem>
                                 })}
                         </ListGroup>
                     </Col>
