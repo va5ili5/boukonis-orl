@@ -1,15 +1,15 @@
 
-import surgery1 from '../src/images/surgeries/rhinoplastic.png';
-import surgery2 from '../src/images/surgeries/apnea.png';
-import surgery3 from '../src/images/surgeries/phoniatric.png';
-import surgery4 from '../src/images/surgeries/swallowing.png';
+import surgery1 from '../src/images/surgeries/rhinoplastic.jpg';
+import surgery2 from '../src/images/surgeries/apnea.jpg';
+import surgery3 from '../src/images/surgeries/phoniatric.jpg';
+import surgery4 from '../src/images/surgeries/swallowing.jpg';
 
-import article1 from '../src/images/articles/se2.png'
-import article2 from '../src/images/articles/f3.png'
-import article3 from '../src/images/articles/s2.png'
-import article4 from '../src/images/articles/r2.png'
-import article5 from '../src/images/articles/1.png'
-import article6 from '../src/images/articles/2.png'
+import article1 from '../src/images/articles/se2.jpg'
+import article2 from '../src/images/articles/f3.jpg'
+import article3 from '../src/images/articles/s2.jpg'
+import article4 from '../src/images/articles/r2.jpg'
+import article5 from '../src/images/articles/1.jpg'
+import article6 from '../src/images/articles/2.jpg'
 
 // about me section
 const description = [
