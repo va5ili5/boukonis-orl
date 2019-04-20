@@ -1,12 +1,12 @@
-import imgage1 from '../src/images/slider/1.png';
-import imgage2 from '../src/images/slider/2.png';
-import imgage3 from '../src/images/slider/3.png';
-import imgage4 from '../src/images/slider/4.png';
-import imgage5 from '../src/images/slider/5.png';
-import imgage6 from '../src/images/slider/6.png';
-import imgage7 from '../src/images/slider/7.png';
-import imgage8 from '../src/images/slider/8.png';
-import imgage9 from '../src/images/slider/9.png';
+import imgage1 from '../src/images/slider/1.jpg';
+import imgage2 from '../src/images/slider/2.jpg';
+import imgage3 from '../src/images/slider/3.jpg';
+import imgage4 from '../src/images/slider/4.jpg';
+import imgage5 from '../src/images/slider/5.jpg';
+import imgage6 from '../src/images/slider/6.jpg';
+import imgage7 from '../src/images/slider/7.jpg';
+import imgage8 from '../src/images/slider/8.jpg';
+import imgage9 from '../src/images/slider/9.jpg';
 const images = [
   {
     src: imgage1,
