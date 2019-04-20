@@ -36,8 +36,9 @@ const About = () => (
                     <Col md={8}>
                         <h5 style={{fontWeight : '400', textDecoration:'underline', textTransform:'uppercase'}}>{education.title}</h5>
                         <ListGroup>
-                            {education.edudetails.map((education, index) => {
-                                    return <ListGroupItem key={index} style={{listStyleType:'decimal', listStylePosition:'inside', display:'list-item'}} className="border-0" dangerouslySetInnerHTML={{ __html: education }}></ListGroupItem>
+                            {education.details.map((item, index) => {
+                                     return <ListGroupItem key={index} style={{listStyleType:'decimal', listStylePosition:'inside', display:'list-item'}} className="border-0" dangerouslySetInnerHTML={{ __html: item.item }}></ListGroupItem>
+                                     
                                 })}
                         </ListGroup>
                     </Col>

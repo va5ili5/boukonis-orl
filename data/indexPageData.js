@@ -48,7 +48,7 @@ const clinic = {
 
 // services section
 const surgeries = [
-    {   surgeryname: 'Ρινοπλαστική', 
+    {   surgeryname: 'Λειτουργική και Αισθητική Ρινοπλαστικη', 
         description: 'Αισθητική και Λειτουργική Ρινοπλαστική. Ανοιχτή και Κλειστή προσπελαση. Διόρθωση ανεπάρκειας Έσω Ρινικής Βαλβίδας (Spreader Grafts).'+ 
                     'Επεμβάσεις κορυφής ρινός(Nasal Tip). Επανεπέμβαση μετά από αποτυχημένη ρινοπλαστική (Revision).', 
         imagesrc: surgery1,
