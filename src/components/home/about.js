@@ -9,7 +9,7 @@ const About = () => (
     <section className="mt-5">
     <Container>
         <Row>
-            <Col md={6}>
+            <Col md={7}>
                 <h3 style={{color : '#00944D', fontWeight : '400'}}>{about.title}</h3>
                 <h4 style={{fontWeight : '400'}}>{about.tagline}</h4>
                 {about.text.map((textLine, index) => {
@@ -17,9 +17,9 @@ const About = () => (
                 })}
                 <Button tag={RRNavLink} to="/about" color="success">{about.buttonText}</Button>
             </Col>
-            <Col md={6}>
+            <Col md={5}>
                 <Media left>
-                    <Media object src={AboutImg} width='550px' height='550px' alt="about image" className="img-fluid" />
+                    <Media object src={AboutImg} width='450px' alt="about image" className="img-fluid" />
                 </Media>
             </Col>
         </Row>
