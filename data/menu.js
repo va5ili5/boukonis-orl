@@ -12,10 +12,6 @@ const servicesLinks = [
         url:  '/services/snoring-surgery-and-obstructive-sleep-apnoea'
     },
     {
-        title: 'Ιατρείο Ρινοπλαστικής – Πλαστικής Χειρουργικής Προσωπου',
-        url:  '/services/rhinoplasty-surgery-plastic-surgery-face'
-    },
-    {
         title: 'Ιατρείο Κεφαλής & Τραχήλου',
         url:  '/services/head-and-neck-med'
     },
@@ -89,7 +85,7 @@ const menu = [
         url:  '/about'
     },
     {
-        title: 'Υπηρεσιες',
+        title: 'Υπηρεσίες',
         url:  '/services/',
         sublinks: servicesLinks
     },
