@@ -4,7 +4,7 @@ const servicesLinks = [
         url:  '/services/laboratory-of-allergic-rhinitis-and-rhinology'
     },
     {
-        title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροοτολγίας',
+        title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροώτολγίας',
         url:  '/services/laboratory-of-otology-ancology-neurothology'
     },
     {

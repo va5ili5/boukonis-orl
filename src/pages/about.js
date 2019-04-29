@@ -2,7 +2,7 @@ import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import { Container, Row, Col, Media, ListGroup, ListGroupItem } from 'reactstrap'
-import { FaMapMarkerAlt, FaPhone, FaMobileAlt, FaEnvelope, FaDotCircle } from 'react-icons/fa'
+import { FaMapMarkerAlt, FaPhone, FaMobileAlt, FaEnvelope } from 'react-icons/fa'
 import { Link as RRNavLink } from 'gatsby';
 import AboutData from '../../data/aboutPageData';
 const { about, education } = AboutData;
