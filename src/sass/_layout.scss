@@ -4,7 +4,6 @@
     border-bottom: 1px solid #dadada;
 }
 
-.services .list-group-item,
 .about .contactDetails .list-group-item,
 .navbar-light .navbar-nav .nav-link {
     color: $primary-link-color;
@@ -15,6 +14,7 @@
 
 .services{
     .list-group-item{
+        color: $primary-link-color;
         padding: 0.75rem 0;
     }
 }

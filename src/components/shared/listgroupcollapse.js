@@ -4,7 +4,7 @@ import { UncontrolledCollapse, Card, CardHeader, CardBody, ListGroup, ListGroupI
 class ListGroupCollapse extends React.Component {
     
     render() {
-        const item = this.props.service;
+        const item = this.props.items;
         const index = this.props.index;
         return (
             <Card style={{ marginBottom: '1rem', border:'1px solid #00944D' }}>
@@ -15,7 +15,7 @@ class ListGroupCollapse extends React.Component {
                                 {item.subservices.map((subservice, index) => {
                                     return (
                                         <ListGroupItem key={index} className="border-0">
-                                            <u>{subservice}</u>
+                                            {subservice}
                                         </ListGroupItem>
                                     )
                                 })}

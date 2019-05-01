@@ -91,7 +91,7 @@ const menu = [
     },
     {
         title: 'Παιδο - ΩΡΛ',
-        url: '/paidiatricorl/',
+        url: '/paidoorl/',
         sublinks: paidoorlLinks
     },
     {
