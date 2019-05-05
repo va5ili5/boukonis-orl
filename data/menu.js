@@ -1,42 +1,46 @@
 const servicesLinks = [
     {
         title: 'Εργαστήριο Αλλεργικής Ρινίτιδας & Ρινολογίας', 
-        url:  '/services/laboratory-of-allergic-rhinitis-and-rhinology'
+        url:  '/services#laboratory-of-allergic-rhinitis-and-rhinology'
     },
     {
         title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροώτολγίας',
-        url:  '/services/laboratory-of-otology-ancology-neurothology'
+        url:  '/services#laboratory-of-otology-ancology-neurothology'
     },
     {
         title: 'Ιατρείο Ροχαλητού και Αποφρακτικής Υπνικής Άπνοιας',
-        url:  '/services/snoring-surgery-and-obstructive-sleep-apnoea'
+        url:  '/services#snoring-surgery-and-obstructive-sleep-apnoea'
     },
     {
         title: 'Ιατρείο Κεφαλής & Τραχήλου',
-        url:  '/services/head-and-neck-med'
+        url:  '/services#head-and-neck-med'
     },
     {
         title: 'Φωνιατρική & Λαρυγγολογία - Διερεύνηση Δυσφωνίας',
-        url:  '/services/phoniatric-and-laryngology-investigate-dysphonia'
+        url:  '/services#phoniatric-and-laryngology-investigate-dysphonia'
     },
     {
         title: 'Ιατρείο Κατάπωσης',
-        url:  '/services/swallowing-clinic'
+        url:  '/services#swallowing-clinic'
     },
     {
         title: 'Γενική Ωτορινολαρυγγολογία & Επείγοντα Περιστατικά',
-        url:  '/services/general-otorhinolaryngology-and-emergencies'
+        url:  '/services#general-otorhinolaryngology-and-emergencies'
+    },
+    {
+        title: 'Μικροεπεμβάσεις στο Ιατρείο',
+        url:  '/services#micro-interventions'
     }
 ];
 
 const paidoorlLinks = [
     {
         title: 'Παίδο-ΩΡΛ Κλινική Εξέταση',
-        url:  '/paidiatricorl/paidiatricorl-clinical-examination'
+        url:  '/paidoorl#paidiatricorl-clinical-examination'
     },
     {
         title: 'Παιδο-ΩΡΛ Χειρουργικές Επεμβάσεις', 
-        url:  '/paidiatricorl/paidiatricorl-surgeries'
+        url:  '/paidoorl#paidiatricorl-surgeries'
     }
 ];
 

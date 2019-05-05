@@ -5,11 +5,10 @@ class ListGroupCollapse extends React.Component {
     
     render() {
         const item = this.props.items;
-        const index = this.props.index;
         return (
             <Card style={{ marginBottom: '1rem', border:'1px solid #00944D' }}>
-                <CardHeader id={"toggler" + index} style={{backgroundColor:'#00944D', color:'#FFF', cursor:'pointer'}}>{item.title}</CardHeader>
-                <UncontrolledCollapse toggler={"#toggler"+index}>
+                <CardHeader id={item.id} style={{backgroundColor:'#00944D', color:'#FFF', cursor:'pointer'}}>{item.title}</CardHeader>
+                <UncontrolledCollapse toggler={"#"+item.id}>
                         <CardBody>
                             <ListGroup>
                                 {item.subservices.map((subservice, index) => {

@@ -3,6 +3,7 @@ const service = {
     services: [
         {
             title: 'Εργαστήριο Αλλεργικής Ρινίτιδας & Ρινολογίας',
+            id: 'laboratory-of-allergic-rhinitis-and-rhinology',
             subservices:[
                 'Αλλεργικά Τεστ (Skin Prick Test)',
                 'Θεραπεία Απευαισθητοποίησης',
@@ -17,6 +18,7 @@ const service = {
         },
         {
             title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροωτολογίας',
+            id: 'laboratory-of-otology-ancology-neurothology',
             subservices:[
                 'Έλεγχος Ωταλγίας, Βαρηκοΐας, Εμβοών, Ιλίγγου',
                 'Ωτο-ενδοσκόπηση',
@@ -30,6 +32,7 @@ const service = {
         },
         {
             title: 'Ιατρείο Ροχαλητού και Αποφρακτικής Υπνικής Άπνοιας',
+            id: 'snoring-surgery-and-obstructive-sleep-apnoea',
             subservices:[
                 'Ιατρικό ιστορικό, ΩΡΛ ιστορικό και ειδικό ιστορικό ροχαλητού/άπνοιας',
                 'Ερωτηματολόγια Άπνοιας',
@@ -45,6 +48,7 @@ const service = {
         },
         {
             title: 'Ιατρείο Κεφαλής & Τραχήλου',
+            id: 'head-and-neck-med',
             subservices:[
                 'Ενδοσκοπικός έλεγχος με Βίντεο καταγραφή ώτων, ρινός, φάρυγγος, λάρυγγος και ανώτερου οισοφάγου Ενηλίκων',
                 'Διερεύνηση Τραχηλικών Διογκώσεων & Λεμφαδενοπάθειας',
@@ -56,6 +60,7 @@ const service = {
         },
         {
             title: 'Φωνιατρική & Λαρυγγολογία - Διερεύνηση Δυσφωνίας',
+            id: 'phoniatric-and-laryngology-investigate-dysphonia',
             subservices:[
                 'Ενδοσκόπηση ανώτερου αναπνευστικού',
                 'Έλεγχος Φωνητικών Χορδών',
@@ -66,6 +71,7 @@ const service = {
         },
         {
             title: 'Ιατρειο Κατάποσης',
+            id: 'swallowing-clinic',
             subservices:[
                 'Δοκιμασία Ελέγχου Κατάποσης (FEES)',
                 'Ενδοσκοπικός Έλεγχος Υποφάρυγγα & Ανώτερου Οισοφάγου',
@@ -74,6 +80,7 @@ const service = {
         },
         {
             title: 'Γενική Ωτορινολαρυγγολογία & Επείγοντα Περιστατικά',
+            id: 'general-otorhinolaryngology-and-emergencies',
             subservices:[
                 'Ακοόγραμμα',
                 'Τυμπανόγραμμα',
@@ -96,6 +103,13 @@ const service = {
                 'Αφαίρεση ξένων σωμάτων',
                 'Κακώσεις και τραύματα κεφαλής και τραχήλου',
                 'Συρραφή θλαστικών τραυμάτων'
+            ]
+        },
+        {
+            title: 'Μικροεπεμβάσεις στο Ιατρείο',
+            id: 'micro-interventions',
+            subservices:[
+                'dummy'
             ]
         }
     ]

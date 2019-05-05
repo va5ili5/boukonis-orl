@@ -14,7 +14,7 @@ const PaidoOrl = () => (
                     <Col md={12}>
                         <h3 style={{ color: '#00944D', fontWeight: '400' }}>{paidoOrl.title}</h3>
                             {paidoOrl.services.map((serviceItem, index) => {
-                                return <ListGroupCollapse key={index} items={serviceItem} index={index}/>
+                                return <ListGroupCollapse key={index} items={serviceItem}/>
                             })}
                     </Col>
                 </Row>

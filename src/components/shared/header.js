@@ -15,7 +15,7 @@ import {
   UncontrolledDropdown,
   DropdownToggle,
   DropdownMenu,
-  DropdownItem,
+  DropdownItem
 } from 'reactstrap';
 import { Link as RRNavLink } from 'gatsby';
 
@@ -52,15 +52,11 @@ class Header extends Component {
                   if (menuitem.sublinks !== undefined) {
                     return (
                       <UncontrolledDropdown key={index} nav inNavbar>
-                        <DropdownToggle nav caret className="text-uppercase">
+                        <DropdownToggle nav caret tag="div" className="text-uppercase" style={{cursor:'pointer'}}>
                           {menuitem.title}
                           <DropdownMenu left="true">
                             {menuitem.sublinks.map((sublink, index) => {
-                              return (
-                                <DropdownItem key={index}>
-                                  {sublink.title}
-                                </DropdownItem>
-                              )
+                              return <DropdownItem key={index} tag={RRNavLink} to={sublink.url}>{sublink.title}</DropdownItem>
                             })}
                           </DropdownMenu>
                         </DropdownToggle>
