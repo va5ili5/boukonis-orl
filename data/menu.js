@@ -47,27 +47,27 @@ const paidoorlLinks = [
 const surgerieslLinks = [
     {
         title: 'Ενδοσκοπική Χειρουργική Ρινός & Παραρρινίων – FESS',
-        url: '/surgery/fess'
+        url: '/surgeries#fess'
     },
     {
         title: 'Ρινοπλαστική - Διαφραγματοπλαστική',
-        url: '/surgery/rhinoplastic'
+        url: '/surgeries#rhinoplastic'
     },
     {
         title: 'Χειρουργική Υπνικής Άπνοιας & Ροχαλητού',
-        url: '/surgery/snoring-and-sleep-apnoea-surgery'
+        url: '/surgeries#snoring-and-sleep-apnoea-surgery'
     },
     {
         title: 'Χειρουργική Κεφαλής και Τραχήλου',
-        url: '/surgery/head-and-neck-surgery'
+        url: '/surgeries#head-and-neck-surgery'
     },
     {
         title: 'Φωνομικροχειρουργική',
-        url: '/surgery/phonosurgery'
+        url: '/surgeries#phonosurgery'
     },
     {
         title: 'Οισοφαγοσκόπηση, Φαρυγγοσκόπηση, Πανενδοσκόπηση',
-        url: '/surgery/oesophagoscopy-pharyngoscopy-panendoscopy'
+        url: '/surgeries#oesophagoscopy-pharyngoscopy-panendoscopy'
     },
     {
         title: 'Ωτοχειρουργική',
