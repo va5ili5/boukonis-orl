@@ -100,7 +100,7 @@ const menu = [
     },
     {
         title: 'Χειρουργικες Επεμβασεις',
-        url: '/surgery/',
+        url: '/surgeries/',
         sublinks: surgerieslLinks
     },
     {
