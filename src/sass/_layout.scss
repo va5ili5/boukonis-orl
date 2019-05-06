@@ -3,7 +3,7 @@
     background-color: $white;
     border-bottom: 1px solid #dadada;
 }
-
+.contact .contactDetails .list-group-item,
 .about .contactDetails .list-group-item,
 .navbar-light .navbar-nav .nav-link {
     color: $primary-link-color;
@@ -19,6 +19,7 @@
     }
 }
 
+.contact,
 .about,
 .footer{
     .list-group-item{
