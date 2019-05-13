@@ -1,12 +1,11 @@
 import React from 'react'
 import Layout from '../components/layout'
-import ListGroupCollapse from '../components/shared/listgroupcollapse'
 import SEO from '../components/seo'
-import { Container, Row, Col, Media, ListGroup, ListGroupItem } from 'reactstrap'
+import { Container, Row, Col, ListGroup, ListGroupItem } from 'reactstrap'
 import AboutData from '../../data/aboutPageData';
 import { FaMapMarkerAlt, FaPhone, FaMobileAlt, FaEnvelope } from 'react-icons/fa'
 import { Link as RRNavLink } from 'gatsby';
-const { about, education } = AboutData;
+const { about } = AboutData;
 const Contact = () => (
     <Layout>
         <SEO title="Επικοινωνία" />

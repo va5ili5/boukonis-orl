@@ -104,6 +104,10 @@ const menu = [
         sublinks: surgerieslLinks
     },
     {
+        title: 'Άρθρα',
+        url: '/articles/'
+    },
+    {
         title: 'Επικοινωνια',
         url:  '/contact'
     }

@@ -48,7 +48,7 @@ class Header extends Component {
           <Navbar light expand="md">
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto mr-auto" navbar>
-                {menu.map((menuitem, index) => {
+                {menu.filter(x=>!x.url.includes('articles')).map((menuitem, index) => {
                   if (menuitem.sublinks !== undefined) {
                     return (
                       <UncontrolledDropdown key={index} nav inNavbar>
