@@ -9,7 +9,7 @@ const Articles = () => (
         <Container>
             <Row>
                 <Col md={12}>
-                    <h3 style={{color : '#00944D', fontWeight : '400'}}>Άρθρα</h3>
+                    <h3>Άρθρα</h3>
                 </Col> 
             </Row>
             <Row>

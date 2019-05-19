@@ -14,7 +14,7 @@ const Clinic = () => (
                     </Media>
                 </Col>
                 <Col md={7}>
-                    <h3 style={{color : '#00944D', fontWeight : '400'}}>{clinic.title}</h3>
+                    <h3>{clinic.title}</h3>
                     {clinic.text.map((textLine, index) => {
                         return <p key={index}>{textLine}</p>
                     })}

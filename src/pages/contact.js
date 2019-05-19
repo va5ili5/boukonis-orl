@@ -13,7 +13,7 @@ const Contact = () => (
             <Container>
                 <Row>
                     <Col md={12}>
-                        <h3 style={{ color: '#00944D', fontWeight: '400' }}>Επικοινωνία</h3>
+                        <h3>Επικοινωνία</h3>
                     </Col>
                 </Row>
                 <Row>

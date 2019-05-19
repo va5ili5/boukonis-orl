@@ -1,8 +1,7 @@
 import React from 'react'
 import { Link as RRNavLink } from 'gatsby'
-import Img from 'gatsby-image';
 import kebabCase from "lodash/kebabCase"
-import { Container, Row, Col, Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap'
+import { Col, Card, CardImg, CardText, CardBody, CardTitle, Button } from 'reactstrap'
 const Article = (props) => (
   <Col lg={3} md={4} className="mb-4">
                             <Card className="h-100">

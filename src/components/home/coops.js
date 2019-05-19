@@ -6,7 +6,7 @@ const Coops = () => (
     <Container>
       <Row>
         <Col md={12}>
-            <h3 style={{color : '#00944D', fontWeight : '400'}}>Συνεργασίες</h3>
+            <h3>Συνεργασίες</h3>
             <ListGroup>
                 <ListGroupItem className="border-0"><FaCircle size={5} style={{marginBottom:'3px',marginRight:'7px'}}/>Επιστημονικός Συνεργάτης – Χειρουργός ΩΡΛ σε Ιδιωτικά Νοσοκομεία &amp; Κλινικές για επεμβάσεις Ενηλίκων και Παίδων:
                     <ListGroup>

@@ -19,7 +19,7 @@ const About = () => (
                         </Media>
                     </Col>
                     <Col md={8}>
-                        <h3 style={{color : '#00944D', fontWeight : '400'}}>{about.title}</h3>
+                        <h3>{about.title}</h3>
                         <h4 style={{fontWeight : '400'}}>{about.tagline}</h4>
                         {about.text.map((textLine, index) => {
                             return <p key={index}>{textLine}</p>

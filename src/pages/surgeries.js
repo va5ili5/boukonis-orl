@@ -12,7 +12,7 @@ const Surgeries = () => (
             <Container>
                 <Row>
                     <Col md={12}>
-                        <h3 style={{ color: '#00944D', fontWeight: '400' }}>{surgeries.title}</h3>
+                        <h3>{surgeries.title}</h3>
                             {surgeries.services.map((serviceItem, index) => {
                                 return <ListGroupCollapse key={index} items={serviceItem}/>
                             })}

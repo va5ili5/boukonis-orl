@@ -10,11 +10,11 @@ const Article = ({ data }) => {
     return (
         <Layout>
             <SEO title={`Άρθρα - ` + frontmatter.title} />
-            <section className="services mt-5">
+            <section className="article mt-5">
                 <Container>
                     <Row>
                         <Col md={12}>
-<h3 className="title">{frontmatter.title}</h3>
+<h3>{frontmatter.title}</h3>
                     
                     <div className="content" dangerouslySetInnerHTML={{ __html: html }} />
                         </Col>

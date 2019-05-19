@@ -3,7 +3,7 @@ import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
 import Article from '../../components/article';
-import { Container, Row, Col, ListGroup } from 'reactstrap'
+import { Container, Row, Col } from 'reactstrap'
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark: articles } = data
 
@@ -14,7 +14,7 @@ const IndexPage = ({ data }) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h3 style={{ color: '#00944D', fontWeight: '400' }}>'Αρθρα</h3>
+              <h3>'Αρθρα</h3>
                 {articles.edges.map((article, i) => (
                   <Article key={i} article={article} />
                 ))}

@@ -10,7 +10,7 @@ const Surgeries = () => (
         <Container>
             <Row>
                 <Col md={12}>
-                    <h3 style={{color : '#00944D', fontWeight : '400'}}>Χειρουργικές επεμβάσεις</h3>
+                    <h3>Χειρουργικές επεμβάσεις</h3>
                 </Col> 
             </Row>    
             <Row>
