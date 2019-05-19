@@ -2,7 +2,6 @@
 slug: 'fess'
 title: 'Ενδοσκοπική Χειρουργική Ρινός & Παραρρινίων'
 image: 'f3.jpg'
-excerpt: 'Functional Endoscopic Sinus Surgery - FESS - Χρόνια Ρινοκολπίτιδα, Χρόνια Ιγμορίτιδα, Ρινικοί Πολύποδες'
 ---
 
 ##### Functional Endoscopic Sinus Surgery - FESS

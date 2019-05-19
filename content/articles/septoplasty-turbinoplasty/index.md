@@ -2,7 +2,6 @@
 slug: 'septoplasty-turbinoplasty'
 title: 'Χειρουργείο Ρινικό Διάφραγμα & Κόγχες'
 image: 'se2.jpg'
-excerpt: 'Ενδοσκοπική Διαφραγματοπλαστική (Endoscopic Septoplasty) - Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)'
 ---
 
 ##### Ενδοσκοπική Διαφραγματοπλαστική (Endoscopic Septoplasty)
