@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
-import Article from '../../components/article';
+import Article from '../../components/article'
 import { Container, Row, Col } from 'reactstrap'
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark: articles } = data
@@ -15,10 +15,12 @@ const IndexPage = ({ data }) => {
           <Row>
             <Col md={12}>
               <h3>'Αρθρα</h3>
-                {articles.edges.map((article, i) => (
-                  <Article key={i} article={article} />
-                ))}
             </Col>
+          </Row>
+          <Row>
+            {articles.edges.map((article, i) => (
+              <Article key={i} article={article} />
+            ))}
           </Row>
         </Container>
       </section>
@@ -37,7 +39,7 @@ export const articlesQuery = graphql`
             slug
             image {
               childImageSharp {
-                resize{
+                resize {
                   src
                 }
               }

@@ -5,7 +5,7 @@ import { Col, Card, CardImg, CardText, CardBody, CardTitle, Button } from 'react
 const Article = (props) => (
   <Col lg={3} md={4} className="mb-4">
                             <Card className="h-100">
-                            <CardImg top width="250px" height="250px" src={props.article.node.frontmatter.image.childImageSharp.resize.src}></CardImg>
+                            <CardImg top src={props.article.node.frontmatter.image.childImageSharp.resize.src}></CardImg>
                                 <CardBody>
                                     <CardTitle>{props.article.node.frontmatter.title}</CardTitle>
                                     <CardText>{props.article.node.excerpt}</CardText>
