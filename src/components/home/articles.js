@@ -17,7 +17,7 @@ const Articles = () => (
                     return( 
                         <Col key={index} lg={3} md={4} className="mb-4">
                             <Card className="h-100">
-                                <CardImg top width="250px" height="250px" src={article.imagesrc} alt={article.imagealt}></CardImg>
+                                <CardImg top src={article.imagesrc} alt={article.imagealt}></CardImg>
                                 <CardBody>
                                     <CardTitle>{article.articlename}</CardTitle>
                                     <CardText>{article.description}</CardText>
