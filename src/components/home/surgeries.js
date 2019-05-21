@@ -18,7 +18,7 @@ const Surgeries = () => (
                     return(
                         <Col key={index} lg={3} md={4} className="mb-4">
                             <Card className="h-100">
-                                <CardImg top width="250px" height="250px" src={surgery.imagesrc} alt={surgery.imagealt}></CardImg>
+                                <CardImg top className="img-fluid" src={surgery.imagesrc} alt={surgery.imagealt}></CardImg>
                                 <CardBody>
                                     <CardTitle>{surgery.surgeryname}</CardTitle>
                                     <CardText>{surgery.description}</CardText>

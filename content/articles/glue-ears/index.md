@@ -1,7 +1,7 @@
 ---
 slug: 'glue-ears'
 title: 'Εκκριτική Ωτίτιδα στα Παιδιά (υγρό στα αυτιά)'
-image: '2.jpg'
+image: 'gr1.jpg'
 ---
 <br/>
 <br/>
