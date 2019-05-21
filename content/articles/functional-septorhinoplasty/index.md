@@ -1,7 +1,7 @@
 ---
 slug: 'functional-septorhinoplasty'
 title: 'Λειτουργική Ρινοπλαστική (Functional Septorhinoplasty)'
-image: 'r2.jpg'
+image: 'n15.jpg'
 ---
 
 ###### "Μια επέμβαση με διττό χαρακτήρα"
