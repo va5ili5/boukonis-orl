@@ -13,7 +13,7 @@ exports.createPages = ({ actions, graphql }) => {
     const articleTemplate = path.resolve(`src/templates/article.js`);
 
     return graphql(`{
-        allMarkdownRemark(limit: 1000)
+        allMarkdownRemark
         {
             edges
             {

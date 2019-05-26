@@ -1,24 +1,24 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import Slider from '../components/home/slider';
-import About from '../components/home/about';
-import Clinic from '../components/home/clinic';
-import Coops from '../components/home/coops';
-import Surgeries from '../components/home/surgeries';
+import Slider from '../components/home/slider'
+import About from '../components/home/about'
+import Clinic from '../components/home/clinic'
+import Coops from '../components/home/coops'
+import Surgeries from '../components/home/surgeries'
 import Article from '../components/article'
-import GMap from '../components/home/gmap';
+import GMap from '../components/home/gmap'
 import { Container, Row, Col } from 'reactstrap'
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark: articles } = data
-  return(
+  return (
     <Layout>
       <SEO title="Αρχική" />
-      <Slider/>
-      <About/>
-      <Clinic/>
-      <Coops/>
-      <Surgeries/>
+      <Slider />
+      <About />
+      <Clinic />
+      <Coops />
+      <Surgeries />
       <section className="about mt-5">
         <Container>
           <Row>
@@ -33,13 +33,13 @@ const IndexPage = ({ data }) => {
           </Row>
         </Container>
       </section>
-      <GMap/>
+      <GMap />
     </Layout>
   )
 }
 export const articlesQuery = graphql`
   query IndexPageQuery {
-    allMarkdownRemark(limit: 1000) {
+    allMarkdownRemark(filter: { frontmatter: { slug: { ne: "bio" } } }) {
       edges {
         node {
           id
@@ -48,8 +48,9 @@ export const articlesQuery = graphql`
             title
             slug
             image {
+              publicURL
               childImageSharp {
-                resize {
+                fluid(maxWidth: 400, maxHeight: 250) {
                   src
                 }
               }

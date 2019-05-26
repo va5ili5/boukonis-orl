@@ -31,6 +31,17 @@
     }
 }
 
+.about{
+    ol{
+        list-style-type: decimal;
+        padding-left: 20px;
+    }
+    ul{
+        list-style-type: disc;
+        padding-left: 20px;
+    }
+
+}
 .article{
     h5{
         color: #333333;

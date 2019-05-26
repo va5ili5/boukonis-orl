@@ -29,7 +29,9 @@ const IndexPage = ({ data }) => {
 }
 export const articlesQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(limit: 1000) {
+    allMarkdownRemark(filter: {
+      frontmatter: {slug: {ne: "bio"}}
+    }) {
       edges {
         node {
           id
@@ -37,9 +39,10 @@ export const articlesQuery = graphql`
           frontmatter {
             title
             slug
-            image {
+            image{
+              publicURL
               childImageSharp {
-                resize {
+                fluid(maxWidth: 400, maxHeight: 250) {
                   src
                 }
               }

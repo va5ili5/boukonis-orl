@@ -11,15 +11,15 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `articles`,
+        path: `${__dirname}/content/articles`,
       },
     },
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `articles`,
-        path: `${__dirname}/content/articles`,
+        name: `about`,
+        path: `${__dirname}/content/about`,
       },
     },
     `gatsby-transformer-sharp`,
