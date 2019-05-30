@@ -32,47 +32,8 @@ const about = {
     }
 }
 
-const education = {
-    title: 'ΕΚΠΑΙΔΕΥΣΗ',
-    imageSrc: aboutme2,
-    imageAlt: 'education image',
-    details: [
-        {
-            item: 'Μετεκπαίδευση & Χειρουργική Εξειδίκευση στη Μεγάλη Βρετανία στη Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρινίων,' +
-                  'Ωτοχειρουργική, Χειρουργική Ρογχοπαθειών και Υπνικής Άπνοιας, Φωνομικροχειρουργική και Χειρουργική Κεφαλής & Τραχήλου.</br>' +
-                  '<b>Queen’s Hospital London, BHR University Hospitals NHS Trust, London United Kingdom' +
-                  'Eastbourne District General Hospital, East Sussex, United Kingdom 2013-2017</b>'
-        },
-        {
-            item: 'Εκπαιδευτικά Χειρουργικά Courses στα Πανεπιστήμια του Λονδίνου <b>"Kings College London"</b> και <b>"Queen Mary University of London"</b><br/>'+
-                  'Εξειδικευμένα Hands on Workshops των Ιατρικών Σχολών σε Ανατομικά Παρασκευάσματα στην Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός, Ωτοχειρουργική και Χειρουργική Κεφαλής & Τραχήλου.<br/><br/>',
-            innerItems: {
-                title: 'ADVANCED SURGICAL TRAINING COURSES:',
-                items: [
-                    '<b>Temporal Bone Dissection Course, "hands-on" Cadaver Dissection Training Course</b> Guy\'s & St Thomas\' NHS Trust, Kings College London, June 2016',
-                    '<b>Rhinoplasty Practical Workshop, "hands-on" Cadaver Dissection Training Course</b> Bart\'s and the London NHS Trust, Queen Mary University London, June 2015',
-                    '<b>F.E.S.S. Practical Workshop, "hands-on" Cadaver Dissection Training Course</b> Bart\'s and the London NHS Trust, Queen Mary University London, June 2014',
-                    '<b>Head & Neck Surgery Practical Workshop, "hands-on" Cadaver Dissection Training Course</b> Bart\'s and the London NHS Trust, Queen Mary University London, June 2014'
-                ]
-            }
-        },
-        {
-            item: 'Ειδικότητα στην Ωτορινολαρυγγολογία και Χειρουργική Κεφαλής & Τραχήλου, Τζάνειο Νοσοκομείο Πειραιά'+
-                  'Ολοκλήρωση της εκπαίδευσης μετά απο επιτυχείς Προφορικές και Γραπτές εξετάσεις υπο τον Καθηγητή Σισμάνη 2013'
-        },
-        {
-            item: 'Απόφοιτος της Ιατρικής Σχολής, του Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης. Βαθμός "Λιαν Καλώς" 7,74 2003'
-        },
-        {
-            item: 'Δευτεροβάθμια εκπαίδευση 1ο Γενικό Λύκειο Καστοριάς. Απολυτήριο με Βαθμό 19<sup>12/13</sup><br/><br/>'
-        }
-    ]
-    
-}
-
 const aboutPageData = {
-    about,
-    education
+    about
 }
 
 export default aboutPageData;
