@@ -1,6 +1,6 @@
 import React from 'react';
 import { UncontrolledCollapse, Card, CardHeader, CardBody, ListGroup, ListGroupItem } from 'reactstrap';
-
+import { Link as RRNavLink } from 'gatsby'
 class ListGroupCollapse extends React.Component {
     
     render() {
@@ -13,8 +13,13 @@ class ListGroupCollapse extends React.Component {
                             <ListGroup>
                                 {item.subservices.map((subservice, index) => {
                                     return (
-                                        <ListGroupItem key={index} className="border-0">
-                                            {subservice}
+                                        subservice.url === undefined ?
+                                        <ListGroupItem key={index} className='border-0'>
+                                            {subservice.title}
+                                        </ListGroupItem>
+                                        :
+                                        <ListGroupItem tag={RRNavLink} to={subservice.url} key={index} className='text-underline border-0'>
+                                            {subservice.title}
                                         </ListGroupItem>
                                     )
                                 })}
