@@ -1,5 +1,5 @@
 ---
-slug: 'osa-childern'
+slug: 'osa-children'
 title: 'Το Σύνδρομο Αποφρακτικής Υπνικής Άπνοιας στα Παιδιά'
 image: 'sn1.jpg'
 ---
