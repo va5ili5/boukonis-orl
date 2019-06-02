@@ -76,6 +76,10 @@ const surgerieslLinks = [
     {
         title: 'Πλαστική Χειρουργική Προσώπου - Facial Plastic Surgery',
         url: '/surgery/facial-plastic-surgery'
+    },
+    {
+        title: 'Μικροεπεμβάσεις στο Ιατρείο',
+        url:  '/surgery#micro-interventions'
     }
 ];
 
