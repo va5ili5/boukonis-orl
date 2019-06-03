@@ -7,15 +7,15 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Χειρουργική Παραρρινίων Κόλπων (Full House FESS), για χρόνια ρινοκολπίτιδα, πολύποδες ρινός, μυκητιασική ρινοκολπίτιδα',
-                    url: 'articles/fess'
+                    url: 'surgeries/fess'
                 },
                 {
                     title: 'Επανεπέμβαση επί υποτροπής Χρόνιας Ρινοκολπίτιδας και Ρινικών Πολυπόδων (Revision FESS)',
-                    url: 'articles/fess'
+                    url: 'surgeries/fess'
                 },
                 {
                     title: 'Ενδοσκοπική Διαφραγματοπλαστική και Ενδοσκοπική Κογχοπλαστική',
-                    url: 'articles/septoplasty-turbinoplasty'
+                    url: 'surgeries/septoplasty-turbinoplasty'
                 },
                 {
                     title: 'Συρρίκνωση Κογχών με Ραδιοσυχνότητες'
@@ -46,11 +46,11 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Λειτουργική και Αισθητική Ρινοπλαστική, με Ανοιχτή (Εξωτερική) και Κλειστή (Ενδορρινική) Προσπέλαση',
-                    url: 'articles/functional-septorhinoplasty'
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
                     title: 'Εξειδίκευση στη χειρουργική διόρθωση Ανεπάρκειας της Έσω Ρινικής Βαλβίδας με μοσχεύματα (Spreader Grafts)',
-                    url: 'articles/functional-septorhinoplasty'
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
                     title: 'Χειρουργική διόρθωση Κορυφής Ρινός (Nasal Tip)'
@@ -109,19 +109,19 @@ const surgeries = {
                 },
                 {
                     title: 'Θυρεοειδεκτομή, Παραθυρεοειδεκτομή',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Παρωτιδεκτομή',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Αφαίρεση Υπογνάθιου Σιελογόνου Αδένα',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Αφαίρεση δερματικών βλαβών κεφαλής και τραχήλου και Αποκατάσταση',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Ανοιχτή Βιοψία Λεμφαδένα'
@@ -134,7 +134,7 @@ const surgeries = {
             subservices:[
                 {
                     title: 'LASER ογκο-μικροχειρουργική Λάρυγγα',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Επεμβάσεις φωνητικών χορδών με Μικρολαρυγγοσκόπιση (Πολύποδες, Κύστεις, Κοκκιώματα, Δυσπλασίες)'
@@ -150,7 +150,7 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Άκαμπτη Οισοφαγοσκόπιση και Βιοψία ύποπτων βλαβών',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Ενδοσκοπική έγχυση μυοχαλαρωτικής τοξίνης σε σπασμό ανώτερου οισοφάγου και δυσκαταποσία'
@@ -163,7 +163,7 @@ const surgeries = {
                 },
                 {
                     title: 'Χειρουργική εξαίρεση και Βιοψία ύποπτων βλαβών βάσης γλώσσης, οισοφάγου',
-                    url: '/articles/head-and-neck-cancer'
+                    url: '/surgeries/head-and-neck-cancer'
                 },
                 {
                     title: 'Διαστολή ανώτερου οισοφαγικού σφιγκτήρα'
