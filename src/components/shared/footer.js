@@ -7,7 +7,7 @@ import {
     FaEnvelope,
     FaFacebook,
     FaTwitter,
-    FaGooglePlusG
+    FaLinkedin
   } from 'react-icons/fa'
 import { Link as RRNavLink } from 'gatsby';
 import logo from '../../images/logo-inverse.svg';
@@ -61,11 +61,11 @@ const Footer = () => (
             <ListGroupItem tag="a" href={socialMedia.facebook} target="_blank" rel="noopener noreferrer" className="list-inline-item bg-dark border-0 footer-facebook">
               <FaFacebook size={21} style={{marginRight:'5px'}}/>
             </ListGroupItem>
-            <ListGroupItem tag="a" href={socialMedia.facebook} target="_blank" rel="noopener noreferrer" className="list-inline-item bg-dark border-0 footer-twitter">
+            <ListGroupItem tag="a" href={socialMedia.twitter} target="_blank" rel="noopener noreferrer" className="list-inline-item bg-dark border-0 footer-twitter">
               <FaTwitter size={21} style={{marginRight:'5px'}}/>
             </ListGroupItem>
-            <ListGroupItem tag="a" href={socialMedia.facebook} target="_blank" rel="noopener noreferrer" className="list-inline-item bg-dark border-0 footer-googleplus">
-              <FaGooglePlusG size={21} style={{marginRight:'5px'}}/>
+            <ListGroupItem tag="a" href={socialMedia.linkedin} target="_blank" rel="noopener noreferrer" className="list-inline-item bg-dark border-0 footer-linkedin">
+              <FaLinkedin size={21} style={{marginRight:'5px'}}/>
             </ListGroupItem>
           </ListGroup>
         </Col>

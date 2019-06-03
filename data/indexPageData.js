@@ -1,23 +1,29 @@
-
-import surgery1 from '../src/images/surgeries/rhinoplastic.jpg';
-import surgery2 from '../src/images/surgeries/apnea.jpg';
-import surgery3 from '../src/images/surgeries/phoniatric.jpg';
-import surgery4 from '../src/images/surgeries/swallowing.jpg';
-
 // about me section
 const description = [
-    'Εξειδικευθείς εις Λονδίνο, Μεγάλη Βρετανία.',
-    'τ. Επιμελητής Πανεπιστημιακής ΩΡΛ Κλινικής Queen’s Hospital, London United Kingdom.',
-    'BHR University Hospitals NHS Trust.',
-    'τ. Επιμελητής ΩΡΛ Κλινικής Eastbourne District General Hospital, East Sussex, United Kingdom.',
-    'East Sussex Healthcare NHS Trust.',
-    'Απόφοιτος Ιατρικής Σχολής, Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης.'
+    'Επιστημονικός Συνεργάτης – Χειρουργός ΩΡΛ Νοσοκομείου ΥΓΕΙΑ',
+    'Επιστημονικός Συνεργάτης – Χειρουργός ΩΡΛ Νοσοκομείου Metropolitan',
+    'Επιμελητής Πανεπιστημιακής ΩΡΛ Κλινικής Queen’s Hospital - London United Kingdom',
+    'Επιμελητής Πανεπιστημιακής ΩΡΛ Κλινικής Eastbourne DGH - United Kingdom',
+    'Απόφοιτος Ιατρικής Σχολής, Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης'
 ]
 
+const tagline = [
+    'Ωτορινολαρυγγολόγος',
+    'Χειρουργός Κεφαλής & Τραχήλου',
+    'Εξειδικευθείς εις Λονδίνο, Μεγάλη Βρετανία'
+]
+
+const clinicinfo = [
+    'Ιδιωτικό Ιατρείο:',
+    'Λεωφόρος Κωνσταντινουπόλεως 63, Περιστέρι, 12132',
+    'Τηλ: (+30) 213 0 575052 , Κιν: (+30) 6947 556211',
+    'kostasboukonis@gmail.com',
+]
 const about = {
     title: 'Κωνσταντίνος Χ. Μπουκόνης',
-    tagline: 'Ωτορινολαρυγγολόγος - Χειρουργός Κεφαλής & Τραχήλου',
+    tagline: tagline,
     text: description,
+    clinicinfo: clinicinfo,
     buttonText: 'Βιογραφικό'
 }
 // end of about me section
@@ -38,40 +44,9 @@ const clinic = {
     text: clinictext
 }
 // end of clinic section
-
-// services section
-const surgeries = [
-    {   surgeryname: 'Λειτουργική και Αισθητική Ρινοπλαστικη', 
-        description: 'Αισθητική και Λειτουργική Ρινοπλαστική. Ανοιχτή και Κλειστή προσπελαση. Διόρθωση ανεπάρκειας Έσω Ρινικής Βαλβίδας (Spreader Grafts).'+ 
-                    'Επεμβάσεις κορυφής ρινός(Nasal Tip). Επανεπέμβαση μετά από αποτυχημένη ρινοπλαστική (Revision).', 
-        imagesrc: surgery1,
-        imagealt: 'rhinoplastic-img',
-        surgeryurl: 'surgery/rhinoplastic'
-    },
-    {   surgeryname: 'Χειρουργικές επεμβάσεις Φάρυγγος και Ροχαλητού/Άπνοιας', 
-        description: 'Αμυγδαλεκτομή-Ενδοσκοπική Αδενοειδεκτομή. LASER ΦαρυγγοΥπερωιοπλαστική. Επεμβάσεις Βάσης Γλώσσης και Υπερώας με Ραδιοσυχνότητες. Expansion Sphincter Pharyngoplasty.', 
-        imagesrc: surgery2,
-        imagealt: 'apnea-img',
-        surgeryurl: 'surgery/snoring-and-sleep-apnoea-surgery'
-    },
-    {   surgeryname: 'Φωνομικροχειρουργική', 
-        description: 'Επεμβάσεις φωνητικών χορδών (Πολύποδες, Κύστεις, Κοκκιώματα, Δυσπλασίες)-Λήψη βιοψίας-LASER ογκο-μικροχειρουργική.', 
-        imagesrc: surgery3,
-        imagealt: 'apnea-img',
-        surgeryurl: 'surgery/snoring-and-sleep-apnoea-surgery'
-    },
-    {   surgeryname: 'Οισοφαγοσκόπηση και Φαρυγγοσκόπηση', 
-        description: 'Ενδοσκοπική εκτομή εκκολπώματος Zenker. Εκτομή ύποπτων βλαβών βάσης γλώσσης, οισοφάγου και βιοψία. Διαστολή ανώτερου οισοφαγικού σφιγκτήρα.', 
-        imagesrc: surgery4,
-        imagealt: 'apnea-img',
-        surgeryurl: 'surgery/snoring-and-sleep-apnoea-surgery'
-    },
-]
-// end of services section
 const indexPageData = {
     about,
-    clinic,
-    surgeries
+    clinic
 }
 
 export default indexPageData;

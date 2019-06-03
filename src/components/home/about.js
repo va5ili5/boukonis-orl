@@ -11,9 +11,14 @@ const About = () => (
         <Row>
             <Col md={7}>
                 <h3>{about.title}</h3>
-                <h4 style={{fontWeight : '400'}}>{about.tagline}</h4>
+                {about.tagline.map((tagline, index) => {
+                    return <h5 key={index}>{tagline}</h5>
+                })}
                 {about.text.map((textLine, index) => {
                     return <p key={index}>{textLine}</p>
+                })}
+                {about.clinicinfo.map((info, index) => {
+                    return <p key={index}>{info}</p>
                 })}
                 <Button tag={RRNavLink} to="/about" color="success">{about.buttonText}</Button>
             </Col>

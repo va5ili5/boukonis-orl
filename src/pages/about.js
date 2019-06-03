@@ -17,7 +17,7 @@ import {
 } from 'react-icons/fa'
 import { Link as RRNavLink } from 'gatsby'
 import AboutData from '../../data/aboutPageData'
-const { about, education } = AboutData
+const { about } = AboutData
 const About = ({ data }) => {
   const { markdownRemark } = data
   const { html } = markdownRemark

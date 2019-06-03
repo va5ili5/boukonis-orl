@@ -5,12 +5,12 @@ import Slider from '../components/home/slider'
 import About from '../components/home/about'
 import Clinic from '../components/home/clinic'
 import Coops from '../components/home/coops'
-import Surgeries from '../components/home/surgeries'
-import Article from '../components/article'
 import GMap from '../components/home/gmap'
 import { Container, Row, Col } from 'reactstrap'
+import CardBox from '../components/shared/cardbox';
 const IndexPage = ({ data }) => {
-  const { allMarkdownRemark: articles } = data
+  const articles = data.articles
+  const surgeries = data.surgeries
   return (
     <Layout>
       <SEO title="Αρχική" />
@@ -18,7 +18,20 @@ const IndexPage = ({ data }) => {
       <About />
       <Clinic />
       <Coops />
-      <Surgeries />
+      <section className="about mt-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+              <h3>Χειρουργικές επεμβάσεις</h3>
+            </Col>
+          </Row>
+          <Row>
+            {surgeries.edges.map((carditem, i) => (
+              <CardBox key={i} cardItem={carditem} category="surgeries"/>
+            ))}
+          </Row>
+        </Container>
+      </section>
       <section className="about mt-5">
         <Container>
           <Row>
@@ -27,8 +40,8 @@ const IndexPage = ({ data }) => {
             </Col>
           </Row>
           <Row>
-            {articles.edges.map((article, i) => (
-              <Article key={i} article={article} />
+            {articles.edges.map((carditem, i) => (
+              <CardBox key={i} cardItem={carditem} category="articles"/>
             ))}
           </Row>
         </Container>
@@ -37,9 +50,29 @@ const IndexPage = ({ data }) => {
     </Layout>
   )
 }
-export const articlesQuery = graphql`
+export const allQuery = graphql`
   query IndexPageQuery {
-    allMarkdownRemark(filter: { frontmatter: { slug: { ne: "bio" } } }) {
+    articles: allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/articles/"}}) {
+      edges {
+        node {
+          id
+          excerpt
+          frontmatter {
+            title
+            slug
+            image {
+              publicURL
+              childImageSharp {
+                fluid(maxWidth: 400, maxHeight: 250) {
+                  src
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    surgeries: allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/surgeries/"}}) {
       edges {
         node {
           id

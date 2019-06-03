@@ -10,7 +10,7 @@
 }
 
 // social media icons
-$social-media-colors: (facebook: $fb-color, twitter: $twitter-color, googleplus: $google-plus-color);
+$social-media-colors: (facebook: $fb-color, twitter: $twitter-color, linkedin: $linkedin-color);
 
 @each $social-media, $social-media-color in $social-media-colors {
     .#{$social-media}{

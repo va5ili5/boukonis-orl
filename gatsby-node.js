@@ -11,10 +11,30 @@ exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions;
 
     const articleTemplate = path.resolve(`src/templates/article.js`);
+    const surgeryTemplate = path.resolve(`src/templates/surgery.js`);
 
-    return graphql(`{
-        allMarkdownRemark
-        {
+    return graphql(`
+    {
+        articles: allMarkdownRemark(
+            filter: { fileAbsolutePath: {regex : "\/articles/"} }
+        ){
+            edges
+            {
+                node
+                {
+                    html
+                    id
+                    frontmatter
+                    {
+                        title
+                        slug
+                    }
+                }
+            }
+        },
+        surgeries: allMarkdownRemark(
+            filter: { fileAbsolutePath: {regex : "\/surgeries/"} }
+        ){
             edges
             {
                 node
@@ -29,15 +49,12 @@ exports.createPages = ({ actions, graphql }) => {
                 }
             }
         }
-    }`)
-        .then(res => {
-            if (res.errors) {
-                return Promise.reject(res.errors);
+    }
+    `).then(result => {
+            if (result.errors) {
+                return Promise.reject(result.errors);
             }
-
-            const articles = res.data.allMarkdownRemark.edges
-
-            articles.forEach(({ node }) => {
+            result.data.articles.edges.forEach(({ node }) => {
                 createPage({
                     path: `/articles/` + node.frontmatter.slug,
                     component: articleTemplate,
@@ -45,6 +62,16 @@ exports.createPages = ({ actions, graphql }) => {
                         slug: node.frontmatter.slug
                     }
                 })
-            })
+            });
+
+            result.data.surgeries.edges.forEach(({ node }) => {
+                createPage({
+                    path: `/surgeries/` + node.frontmatter.slug,
+                    component: surgeryTemplate,
+                    context: {
+                        slug: node.frontmatter.slug
+                    }
+                });
+            });
         })
 }

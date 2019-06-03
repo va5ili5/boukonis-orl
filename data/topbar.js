@@ -9,7 +9,7 @@ const topbar = {
     contact : contactDetails,
     facebook : 'https://facebook.com/ConsultantENTSurgeonRhinologist',
     twitter : 'https://twitter.com/Cons_ENTSurgeon',
-    google : 'https://plus.google.com/u/0/106223965710849406721'
+    linkedin : 'https://gr.linkedin.com/in/konstantinosboukonisentsurgeon'
 }
 
 export default topbar;

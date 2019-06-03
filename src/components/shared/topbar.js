@@ -8,7 +8,7 @@ import {
   FaEnvelope,
   FaFacebook,
   FaTwitter,
-  FaGooglePlusG,
+  FaLinkedin,
 } from 'react-icons/fa'
 
 const Topbar = () => (
@@ -66,12 +66,12 @@ const Topbar = () => (
         </li>
         <li className="list-inline-item">
           <a
-            className="d-flex align-items-center p-1 googleplus"
-            href={data.google}
+            className="d-flex align-items-center p-1 linkedin"
+            href={data.linkedin}
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGooglePlusG size={21} style={{marginRight:'5px'}}/>
+            <FaLinkedin size={21} style={{marginRight:'5px'}}/>
           </a>
         </li>
       </ul>
