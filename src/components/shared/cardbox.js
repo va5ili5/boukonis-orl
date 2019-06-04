@@ -20,7 +20,7 @@ const CardBox = props => (
       />
       <CardBody>
         <CardTitle>{props.cardItem.node.frontmatter.title}</CardTitle>
-        <CardText>{props.cardItem.node.excerpt}</CardText>
+        <CardText>{props.cardItem.node.frontmatter.excerpt}</CardText>
         <Button
           tag={RRNavLink}
           to={`/` + props.category +`/${kebabCase(props.cardItem.node.frontmatter.slug)}`}

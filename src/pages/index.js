@@ -56,10 +56,10 @@ export const allQuery = graphql`
       edges {
         node {
           id
-          excerpt
           frontmatter {
             title
             slug
+            excerpt
             image {
               publicURL
               childImageSharp {
@@ -76,10 +76,10 @@ export const allQuery = graphql`
       edges {
         node {
           id
-          excerpt
           frontmatter {
             title
             slug
+            excerpt
             image {
               publicURL
               childImageSharp {

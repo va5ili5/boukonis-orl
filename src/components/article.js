@@ -20,7 +20,7 @@ const Article = props => (
       />
       <CardBody>
         <CardTitle>{props.article.node.frontmatter.title}</CardTitle>
-        <CardText>{props.article.node.excerpt}</CardText>
+        <CardText>{props.article.node.frontmatter.excerpt}</CardText>
         <Button
           tag={RRNavLink}
           to={`/articles/${kebabCase(props.article.node.frontmatter.slug)}`}

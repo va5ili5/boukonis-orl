@@ -84,7 +84,8 @@ const surgeries = {
                     title: 'Οργάνωση δοκιμασίας Sleep Nasendoscopy (Drug Induced Sleep Endoscopy)'
                 },
                 {
-                    title: 'Αμυγδαλεκτομή & Ενδοσκοπική Αδενοειδεκτομή'
+                    title: 'Αμυγδαλεκτομή & Ενδοσκοπική Αδενοειδεκτομή',
+                    url: 'surgeries/tonsillectomy'
                 },
                 {
                     title: 'Φαρυγγο-Πλαστική (Expansion Sphincter Pharyngoplasty, Relocation Pharyngoplasty, Lateral Pharyngoplasty)'
@@ -97,6 +98,10 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Χειρουργική παροχέτευση Αποστημάτων Τραχήλου'
+                },
+                {
+                    title: 'Αμυγδαλεκτομη και Ενδοσκοπικη Αδενοειδεκτομη',
+                    url: 'surgeries/tonsillectomy'
                 },
                 {
                     title: 'Τραχειοστομία'

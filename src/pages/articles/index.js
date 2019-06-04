@@ -29,16 +29,14 @@ const IndexPage = ({ data }) => {
 }
 export const articlesQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(filter: {
-      frontmatter: {slug: {ne: "bio"}}
-    }) {
+    allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/articles/"}}) {
       edges {
         node {
           id
-          excerpt
           frontmatter {
             title
             slug
+            excerpt
             image{
               publicURL
               childImageSharp {
