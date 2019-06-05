@@ -39,7 +39,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![alt text](ad2.jpg)
+![alt text](img2.jpg)
 <br/>
 <br/>
 
@@ -54,7 +54,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![alt text](ad3.jpg)
+![alt text](img3.jpg)
 <br/>
 <br/>
 
@@ -67,7 +67,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![alt text](ad4.jpg)
+![alt text](img4.jpg)
 <br/>
 <br/>
 
@@ -85,7 +85,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![alt text](ad5.jpg)
+![alt text](img5.jpg)
 <br/>
 <br/>
 
