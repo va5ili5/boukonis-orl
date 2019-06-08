@@ -17,7 +17,7 @@ const menu = {
 }
 
 const timetable = {
-    title: 'ΩΡΑΡΙΟ',
+    title: 'ΩΡΑΡΙΟ ΛΕΙΤΟΥΡΓΙΑΣ ΙΑΤΡΕΙΟΥ',
     workingDays: [
         {
             day: 'Δευτέρα',
