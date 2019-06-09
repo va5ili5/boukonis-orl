@@ -43,7 +43,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![snoring-osa sn2](sn2.jpg)
+![snoring-osa sn12](sn12.jpg)
 <br/>
 <br/>
 
@@ -129,7 +129,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![snoring-osa sn5](sn5.jpg)
+![snoring-osa sn15](sn15.jpg)
 <br/>
 <br/>
 
