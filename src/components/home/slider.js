@@ -4,14 +4,10 @@ import {
   Carousel,
   CarouselItem,
   CarouselControl,
-  CarouselIndicators,
-  CarouselCaption,
-  Media
-} from 'reactstrap';
+  Media,
+} from 'reactstrap'
 
-import items from '../../../data/images';
-
-
+import items from '../../../data/images'
 
 class Slider extends Component {
   constructor(props) {
@@ -55,10 +51,8 @@ class Slider extends Component {
     this.setState({ activeIndex: newIndex })
   }
 
-  
-
   render() {
-    const { activeIndex} = this.state
+    const { activeIndex } = this.state
     const slides = items.map(item => {
       return (
         <CarouselItem
@@ -66,38 +60,29 @@ class Slider extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-           <Media src={item.src} alt={item.altText} className="img-fluid"></Media>
-          <CarouselCaption
-            captionText={item.caption}
-            captionHeader={item.caption}
-          />
+          <Media src={item.src} alt={item.altText} className="img-fluid" />
         </CarouselItem>
       )
     })
     return (
       <Container>
-      <Carousel
-        activeIndex={activeIndex}
-        next={this.next}
-        previous={this.previous}
-      >
-        <CarouselIndicators
-          items={items}
+        <Carousel
           activeIndex={activeIndex}
-          onClickHandler={this.goToIndex}
-        />
-        {slides}
-        <CarouselControl
-          direction="prev"
-          directionText="Previous"
-          onClickHandler={this.previous}
-        />
-        <CarouselControl
-          direction="next"
-          directionText="Next"
-          onClickHandler={this.next}
-        />
-      </Carousel>
+          next={this.next}
+          previous={this.previous}
+        >
+          {slides}
+          <CarouselControl
+            direction="prev"
+            directionText="Previous"
+            onClickHandler={this.previous}
+          />
+          <CarouselControl
+            direction="next"
+            directionText="Next"
+            onClickHandler={this.next}
+          />
+        </Carousel>
       </Container>
     )
   }

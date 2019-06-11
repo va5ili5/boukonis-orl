@@ -19,12 +19,26 @@ const CardBox = props => (
         src={props.cardItem.node.frontmatter.image.childImageSharp.fluid.src}
       />
       <CardBody>
-        <CardTitle>{props.cardItem.node.frontmatter.title}</CardTitle>
+        <CardTitle
+          tag={RRNavLink}
+          to={
+            `/` +
+            props.category +
+            `/${kebabCase(props.cardItem.node.frontmatter.slug)}`
+          }
+          style={{ color: '#00944d', fontWeight: 'bold' }}
+        >
+          {props.cardItem.node.frontmatter.title}
+        </CardTitle>
         <CardText>{props.cardItem.node.frontmatter.excerpt}</CardText>
         <Button
           tag={RRNavLink}
-          to={`/` + props.category +`/${kebabCase(props.cardItem.node.frontmatter.slug)}`}
-          color="success"
+          to={
+            `/` +
+            props.category +
+            `/${kebabCase(props.cardItem.node.frontmatter.slug)}`
+          }
+          color ="success"
         >
           Περισσότερα
         </Button>

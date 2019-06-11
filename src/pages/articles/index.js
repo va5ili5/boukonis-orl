@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
-import Article from '../../components/article'
+import CardBox from '../../components/shared/cardbox';
 import { Container, Row, Col } from 'reactstrap'
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark: articles } = data
@@ -18,8 +18,8 @@ const IndexPage = ({ data }) => {
             </Col>
           </Row>
           <Row>
-            {articles.edges.map((article, i) => (
-              <Article key={i} article={article} />
+            {articles.edges.map((carditem, i) => (
+              <CardBox key={i} cardItem={carditem} category="articles"/>
             ))}
           </Row>
         </Container>
