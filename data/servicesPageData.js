@@ -33,6 +33,18 @@ const service = {
                 },
                 {
                     title: 'Διερεύνηση χρόνιων ρινίτιδων'
+                },
+                {
+                    title: 'Διερεύνηση Αλλεργικής Ρινίτιδας και Μη-Αλλεργικής Ρινίτιδας',
+                    url: '/articles/allergic-rhinitis'
+                },
+                {
+                    title: 'Ανάλυση εξωτερικών χαρακτηριστικών της μύτης',
+                    url: '/surgeries/functional-septorhinoplasty'
+                },
+                {
+                    title: 'Έλεγχος έσω ρινικής βαλβίδας',
+                    url: '/surgeries/functional-septorhinoplasty'
                 }
             ]
         },
@@ -63,6 +75,14 @@ const service = {
                 },
                 {
                     title: 'Χημική λαβυρινθεκτομη (Chemical Labyrinthectomy)'
+                },
+                {
+                    title: 'Διερεύνηση Εμβοών',
+                    url: '/articles/tinnitus'
+                },
+                {
+                    title: 'Διερεύνηση Υπερακουσίας',
+                    url: '/articles/hyperacusis'
                 }
             ]
         },
@@ -70,6 +90,10 @@ const service = {
             title: 'Ιατρείο Ροχαλητού και Αποφρακτικής Υπνικής Άπνοιας',
             id: 'snoring-surgery-and-obstructive-sleep-apnoea',
             subservices:[
+                {
+                    title: 'Εξατομικευμένη διερεύνηση Ροχαλητου - Άπνοιας και σχεδιασμός Θεραπευτικού Πλάνου',
+                    url: '/surgeries/snoring-osa'
+                },
                 {
                     title: 'Ιατρικό ιστορικό, ΩΡΛ ιστορικό και ειδικό ιστορικό ροχαλητού/άπνοιας'
                 },
@@ -148,6 +172,10 @@ const service = {
                 },
                 {
                     title: 'Συνεργασία με ειδικό Λογοθεραπευτή'
+                },
+                {
+                    title: 'Φωνομικροχειρουργική',
+                    url: '/surgeries/microlaryngoscopy'
                 }
             ]
         },

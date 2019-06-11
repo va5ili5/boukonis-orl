@@ -53,13 +53,16 @@ const surgeries = {
                     url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
-                    title: 'Χειρουργική διόρθωση Κορυφής Ρινός (Nasal Tip)'
+                    title: 'Χειρουργική διόρθωση Κορυφής Ρινός (Nasal Tip)',
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
-                    title: 'Διόρθωση ασυμμετρίας ή απώλειας στήριξης στυλίδας με Εξωτερική Προσπέλαση (Columella Struts - Columelloplasty)'
+                    title: 'Διόρθωση ασυμμετρίας ή απώλειας στήριξης στυλίδας με Εξωτερική Προσπέλαση (Columella Struts - Columelloplasty)',
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
-                    title: 'Επανεπέμβαση (Revision) επι αποτυχημένης Διαφραγματοπλαστικής και Ρινοπλαστικής'
+                    title: 'Επανεπέμβαση (Revision) επι αποτυχημένης Διαφραγματοπλαστικής και Ρινοπλαστικής',
+                    url: 'surgeries/functional-septorhinoplasty'
                 }
             ]
         },
@@ -72,13 +75,16 @@ const surgeries = {
                     url: 'articles/snoring-osa'
                 },
                 {
-                    title: 'Νεότερες μέθοδοι Σταφυλο-Υπερώιο-Πλαστικής Celon & Procut Palatoplasty'
+                    title: 'Νεότερες μέθοδοι Σταφυλο-Υπερώιο-Πλαστικής Celon & Procut Palatoplasty',
+                    url: 'articles/snoring-osa'
                 },
                 {
-                    title: 'Επεμβάσεις Βάσης Γλώσσης και Υπερώας με Ραδιοσυχνότητες (Somnoplasty)'
+                    title: 'Επεμβάσεις Βάσης Γλώσσης και Υπερώας με Ραδιοσυχνότητες (Somnoplasty)',
+                    url: 'articles/snoring-osa'
                 },
                 {
-                    title: 'LASER Φαρυγγο-Σταφυλο-Υπερωιο-Πλαστική (LAUP)'
+                    title: 'LASER Φαρυγγο-Σταφυλο-Υπερωιο-Πλαστική (LAUP)',
+                    url: 'articles/snoring-osa'
                 },
                 {
                     title: 'Οργάνωση δοκιμασίας Sleep Nasendoscopy (Drug Induced Sleep Endoscopy)'
@@ -88,7 +94,8 @@ const surgeries = {
                     url: 'surgeries/tonsillectomy'
                 },
                 {
-                    title: 'Φαρυγγο-Πλαστική (Expansion Sphincter Pharyngoplasty, Relocation Pharyngoplasty, Lateral Pharyngoplasty)'
+                    title: 'Φαρυγγο-Πλαστική (Expansion Sphincter Pharyngoplasty, Relocation Pharyngoplasty, Lateral Pharyngoplasty)',
+                    url: 'articles/snoring-osa'
                 }
             ]
         },
@@ -139,13 +146,15 @@ const surgeries = {
             subservices:[
                 {
                     title: 'LASER ογκο-μικροχειρουργική Λάρυγγα',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/surgeries/microlaryngoscopy'
                 },
                 {
-                    title: 'Επεμβάσεις φωνητικών χορδών με Μικρολαρυγγοσκόπιση (Πολύποδες, Κύστεις, Κοκκιώματα, Δυσπλασίες)'
+                    title: 'Επεμβάσεις φωνητικών χορδών με Μικρολαρυγγοσκόπιση (Πολύποδες, Κύστεις, Κοκκιώματα, Δυσπλασίες)',
+                    url: '/surgeries/microlaryngoscopy'
                 },
                 {
-                    title: 'Ενδοσκοπική Χειρουργική Υποφάρυγγα και Λάρυγγα και Λήψη βιοψίας'
+                    title: 'Ενδοσκοπική Χειρουργική Υποφάρυγγα και Λάρυγγα και Λήψη βιοψίας',
+                    url: '/surgeries/microlaryngoscopy'
                 }
             ]
         },
