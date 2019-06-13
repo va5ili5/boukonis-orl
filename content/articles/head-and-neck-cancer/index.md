@@ -7,7 +7,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![head and neck cancer image](hcn1.jpg)
+![head and neck cancer image](cardImg.jpg)
 <br/>
 <br/>
 
