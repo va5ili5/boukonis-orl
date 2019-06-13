@@ -27,21 +27,21 @@ const About = ({ data }) => {
       <section className="about mt-5">
         <Container>
           <Row>
-            <Col md={4}>
+            <Col md={5}>
               <Media left>
                 <Media
                   object
                   src={about.imageSrc}
-                  width="550px"
-                  height="550px"
                   alt={about.imageAlt}
                   className="img-fluid"
                 />
               </Media>
             </Col>
-            <Col md={8}>
+            <Col md={7}>
               <h3>{about.title}</h3>
-              <h4 style={{ fontWeight: '400' }}>{about.tagline}</h4>
+              {about.tagline.map((tagline, index) => {
+                    return <h5 style={{ fontWeight: '400' }} key={index}>{tagline}</h5>
+                })}
               {about.text.map((textLine, index) => {
                 return <p key={index}>{textLine}</p>
               })}
