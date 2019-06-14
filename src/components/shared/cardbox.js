@@ -16,7 +16,8 @@ const CardBox = props => (
       <CardImg
         top
         className="img-fluid"
-        src={props.cardItem.node.frontmatter.image.childImageSharp.fluid.src}
+        alt = { props.cardItem.node.frontmatter.title }
+        src= { props.cardItem.node.frontmatter.image.childImageSharp.fluid.src }
       />
       <CardBody>
         <CardTitle
