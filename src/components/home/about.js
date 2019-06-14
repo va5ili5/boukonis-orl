@@ -6,6 +6,7 @@ import {
   Media,
   ListGroup,
   ListGroupItem,
+  Button
 } from 'reactstrap'
 import {
   FaMapMarkerAlt,
@@ -29,7 +30,7 @@ const About = () => (
           {about.text.map((textLine, index) => {
             return <p key={index}>{textLine}</p>
           })}
-          <ListGroup className="contactDetails">
+          <ListGroup className="contactDetails mb-5">
             <ListGroupItem tag={RRNavLink} to="./contact" className="border-0">
               <FaMapMarkerAlt
                 size={12}
@@ -60,6 +61,7 @@ const About = () => (
               {about.contactDetails.email}
             </ListGroupItem>
           </ListGroup>
+          <Button tag={RRNavLink} to="/about" color="success">Βιογραφικό</Button>
         </Col>
         <Col md={5}>
           <Media left>

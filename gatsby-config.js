@@ -51,19 +51,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `Κωνσταντίνος Χ. Μπουκόνης`,
+        short_name: `Κωνσταντίνος Χ. Μπουκόνης`,
         start_url: `/`,
-        background_color: `#663399`,
+        background_color: `#00944D`,
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/favico.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-sass`,
-    `gatsby-plugin-sitemap`
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-offline'
   ],
 }

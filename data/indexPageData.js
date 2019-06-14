@@ -1,33 +1,3 @@
-// about me section
-const description = [
-    'Επιστημονικός Συνεργάτης – Χειρουργός ΩΡΛ Νοσοκομείου ΥΓΕΙΑ',
-    'Επιστημονικός Συνεργάτης – Χειρουργός ΩΡΛ Νοσοκομείου Metropolitan',
-    'Επιμελητής Πανεπιστημιακής ΩΡΛ Κλινικής Queen’s Hospital - London United Kingdom',
-    'Επιμελητής Πανεπιστημιακής ΩΡΛ Κλινικής Eastbourne DGH - United Kingdom',
-    'Απόφοιτος Ιατρικής Σχολής, Αριστοτελείου Πανεπιστημίου Θεσσαλονίκης'
-]
-
-const tagline = [
-    'Ωτορινολαρυγγολόγος',
-    'Χειρουργός Κεφαλής & Τραχήλου',
-    'Εξειδικευθείς εις Λονδίνο, Μεγάλη Βρετανία'
-]
-
-const clinicinfo = [
-    'Ιδιωτικό Ιατρείο:',
-    'Λεωφόρος Κωνσταντινουπόλεως 63, Περιστέρι, 12132',
-    'Τηλ: (+30) 213 0 575052 , Κιν: (+30) 6947 556211',
-    'kostasboukonis@gmail.com',
-]
-const about = {
-    title: 'Κωνσταντίνος Χ. Μπουκόνης',
-    tagline: tagline,
-    text: description,
-    clinicinfo: clinicinfo,
-    buttonText: 'Βιογραφικό'
-}
-// end of about me section
-
 // clinic section
 const clinictext = [
     'Το Ιατρείο βρίσκεται στη Λεωφόρο Κωνσταντινουπόλεως 63, στο 2ο όροφο, σε μια από τις πλέον ζωντανές περιοχές του Περιστερίου.',
@@ -45,7 +15,6 @@ const clinic = {
 }
 // end of clinic section
 const indexPageData = {
-    about,
     clinic
 }
 
