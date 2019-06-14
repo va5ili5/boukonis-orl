@@ -51,11 +51,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Κωνσταντίνος Χ. Μπουκόνης`,
+        name: `Κωνσταντίνος Χ. Μπουκόνης - Χειρουργός Ωτορινολαρυγγολόγος Ενηλίκων και Παίδων`,
         short_name: `Κωνσταντίνος Χ. Μπουκόνης`,
         start_url: `/`,
         background_color: `#00944D`,
-        theme_color: `#663399`,
+        theme_color: `#00944D`,
         display: `minimal-ui`,
         icon: `src/images/favico.png`, // This path is relative to the root of the site.
       },
