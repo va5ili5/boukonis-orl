@@ -63,6 +63,7 @@ module.exports = {
     `gatsby-plugin-sass`,
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
-    'gatsby-plugin-offline'
+    'gatsby-plugin-offline',
+    `gatsby-plugin-netlify`
   ],
 }
