@@ -10,7 +10,6 @@ const path = require('path')
 exports.createPages = ({ actions, graphql }) => {
     const { createPage, createRedirect } = actions;
 
-    createRedirect({ fromPath: 'https://www.boukonis-orl.gr/*', toPath: 'https://www.boukonis-orl.gr/:splat', isPermanent: true, force: true })
     createRedirect({ fromPath: 'https://boukonis-orl.gr/*', toPath: 'https://www.boukonis-orl.gr/:splat', isPermanent: true, force: true })
 
     const articleTemplate = path.resolve(`src/templates/article.js`);
