@@ -37,6 +37,18 @@ const surgeries = {
                 },
                 {
                     title: '3D Image Guided Endoscopic Sinus Surgery'
+                },
+                {
+                    title: 'Ενδοσκοπική Διαρρινική Αδενοειδεκτομή',
+                    url: 'surgeries/adenoidectomy'
+                },
+                {
+                    title: 'Ενδοσκοπική Διαφραγματοπλαστική (Endoscopic Septoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
                 }
             ]
         },
@@ -63,6 +75,22 @@ const surgeries = {
                 {
                     title: 'Επανεπέμβαση (Revision) επι αποτυχημένης Διαφραγματοπλαστικής και Ρινοπλαστικής',
                     url: 'surgeries/functional-septorhinoplasty'
+                },
+                {
+                    title: 'Ενδοσκοπική Διαφραγματοπλαστική (Endoscopic Septoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Συρρικνωση  κάτω ρινικών κογχών με Ραδιοσυχνότητες',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Επανεπέμβαση (Revision) επι αποτυχημένης Διαφραγματοπλαστικής',
+                    url: 'surgeries/septoplasty-turbinoplasty'
                 }
             ]
         },
@@ -96,6 +124,22 @@ const surgeries = {
                 {
                     title: 'Φαρυγγο-Πλαστική (Expansion Sphincter Pharyngoplasty, Relocation Pharyngoplasty, Lateral Pharyngoplasty)',
                     url: 'articles/snoring-osa'
+                },
+                {
+                    title: 'Ενδοσκοπική Αδενοειδεκτομή',
+                    url: 'surgeries/adenoidectomy'
+                },
+                {
+                    title: 'Ενδοσκοπική Διαφραγματοπλαστική (Endoscopic Septoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)',
+                    url: 'surgeries/septoplasty-turbinoplasty'
+                },
+                {
+                    title: 'Αμυγδαλεκτομή',
+                    url: 'surgeries/tonsillectomy'
                 }
             ]
         },
@@ -121,22 +165,35 @@ const surgeries = {
                 },
                 {
                     title: 'Θυρεοειδεκτομή, Παραθυρεοειδεκτομή',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Παρωτιδεκτομή',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Αφαίρεση Υπογνάθιου Σιελογόνου Αδένα',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Αφαίρεση δερματικών βλαβών κεφαλής και τραχήλου και Αποκατάσταση',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
-                    title: 'Ανοιχτή Βιοψία Λεμφαδένα'
+                    title: 'Ανοιχτή Βιοψία Λεμφαδένα',
+                    url: '/articles/head-and-neck-cancer'
+                },
+                {
+                    title: 'Ενδοσκοπική Αδενοειδεκτομή',
+                    url: 'surgeries/adenoidectomy'
+                },
+                {
+                    title: 'LASER  Μικρο-Ογκοχειρουργική Στόματος Φάρυγγα Λάρυγγα',
+                    url: '/articles/head-and-neck-cancer'
+                },
+                {
+                    title: 'Αμυγδαλεκτομή',
+                    url: 'surgeries/tonsillectomy'
                 }
             ]
         },
@@ -164,7 +221,11 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Άκαμπτη Οισοφαγοσκόπιση και Βιοψία ύποπτων βλαβών',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
+                },
+                {
+                    title: 'Πανενδοσκόπηση και Βιοψία ύποπτων βλαβών',
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Ενδοσκοπική έγχυση μυοχαλαρωτικής τοξίνης σε σπασμό ανώτερου οισοφάγου και δυσκαταποσία'
@@ -177,10 +238,14 @@ const surgeries = {
                 },
                 {
                     title: 'Χειρουργική εξαίρεση και Βιοψία ύποπτων βλαβών βάσης γλώσσης, οισοφάγου',
-                    url: '/surgeries/head-and-neck-cancer'
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Διαστολή ανώτερου οισοφαγικού σφιγκτήρα'
+                },
+                {
+                    title: 'Έλεγχος παθολογίας φωνητικών χορδών',
+                    url: '/articles/laryngitis'
                 }
             ]
         },
@@ -266,7 +331,8 @@ const surgeries = {
                     title: 'Αφαίρεση σπίλων'
                 },
                 {
-                    title: 'Αφαίρεση Κακοήθων Όγκων του δέρματος (Βασικοκυτταρικό και Ακανθοκυτταρικό Καρκίνωμα, Μελάνωμα)'
+                    title: 'Αφαίρεση Κακοήθων Όγκων του δέρματος (Βασικοκυτταρικό και Ακανθοκυτταρικό Καρκίνωμα, Μελάνωμα)',
+                    url: '/articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Αφαίρεση Λιπωμάτων, θηλωμάτων, υπερκερατώσεων'

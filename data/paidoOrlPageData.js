@@ -13,7 +13,8 @@ const paidoOrl = {
                     url: 'articles/osa-children'
                 },
                 {
-                    title: 'Ενδοσκοπικός έλεγχος με Βίντεο καταγραφή υπερτροφίας αδενοειδών (κρεατάκια) και αμυγδαλών'
+                    title: 'Ενδοσκοπικός έλεγχος με Βίντεο καταγραφή υπερτροφίας αδενοειδών (κρεατάκια) και αμυγδαλών',
+                    url: 'surgeries/adenoidectomy'
                 },
                 {
                     title: 'Strep-Test και Διερεύνηση λοιμώξεων ανώτερου αναπνευστικού'
@@ -80,6 +81,10 @@ const paidoOrl = {
                 {
                     title: 'Διερεύνηση Υπερακουσίας',
                     url: '/articles/hyperacusis'
+                },
+                {
+                    title: 'Έλεγχος υπερτροφίας αμυγδαλών',
+                    url: 'surgeries/tonsillectomy'
                 }
             ]
         },
@@ -95,7 +100,8 @@ const paidoOrl = {
                     url: 'surgeries/tonsillectomy'
                 },
                 {
-                    title:   'Ενδοσκοπική Διαρρινική Αφαίρεση Αδενοειδών Εκβλαστήσεων (κρεατάκια)'
+                    title:   'Ενδοσκοπική Διαρρινική Αφαίρεση Αδενοειδών Εκβλαστήσεων (κρεατάκια)',
+                    url: 'surgeries/adenoidectomy'
                 },
                 {
                     title:  'Ενδοσκοπική Κογχοπλαστική & Συρρίκνωση Κογχών με Ραδιοσυχνότητες'
@@ -123,6 +129,10 @@ const paidoOrl = {
                 {
                     title: 'Χειρουργική αντιμετώπιση Ροχαλητού και Άπνοιας',
                     url: 'articles/osa-children'
+                },
+                {
+                    title: 'Αμυγδαλεκτομή',
+                    url: 'surgeries/tonsillectomy'
                 }
             ]
         }
