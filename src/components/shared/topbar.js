@@ -1,6 +1,6 @@
 import React from 'react'
 import data from '../../../data/topbar';
-import { Container } from 'reactstrap';
+import { Container, ListGroupItem } from 'reactstrap';
 import {
   FaMapMarkerAlt,
   FaPhone,
@@ -10,16 +10,17 @@ import {
   FaTwitter,
   FaLinkedin,
 } from 'react-icons/fa'
+import { Link as RRNavLink } from 'gatsby';
 
 const Topbar = () => (
   <div className="top-bar sticky-top">
     <Container className="d-flex justify-content-lg-between align-items-center h-100">
       <ul className="d-flex list-inline p-2">
         <li className="d-none d-lg-inline-flex list-inline-item">
-          <a className="d-flex align-items-center p-1 contact-link" href="#google-map">
+          <ListGroupItem className="d-flex align-items-center p-1 contact-link border-0" tag={RRNavLink} to='./contact' >
             <FaMapMarkerAlt size={12} style={{marginRight:'5px'}}/>
             <span>{data.contact.address}</span>
-          </a>
+          </ListGroupItem>
         </li>
         <li className="list-inline-item">
           <a className="d-flex align-items-center p-1 contact-link" href="tel:2130575052">
