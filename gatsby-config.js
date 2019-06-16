@@ -60,6 +60,13 @@ module.exports = {
         icon: `src/images/favico.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "UA-108741019-1",
+        head: false
+      },
+    },
     `gatsby-plugin-sass`,
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
