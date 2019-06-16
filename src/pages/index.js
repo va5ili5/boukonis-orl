@@ -5,7 +5,7 @@ import Slider from '../components/home/slider'
 import About from '../components/home/about'
 import Clinic from '../components/home/clinic'
 import Coops from '../components/home/coops'
-import GMap from '../components/home/gmap'
+import GMap from '../components/shared/gmap'
 import { Container, Row, Col } from 'reactstrap'
 import CardBox from '../components/shared/cardbox';
 const IndexPage = ({ data }) => {
@@ -46,7 +46,15 @@ const IndexPage = ({ data }) => {
           </Row>
         </Container>
       </section>
-      <GMap />
+      <section className="gmap mt-5">
+        <Container>
+          <Row>
+            <Col md={12}>
+            <GMap/>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </Layout>
   )
 }
