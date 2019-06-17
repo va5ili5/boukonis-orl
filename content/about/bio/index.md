@@ -144,6 +144,11 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
 * Διαλέξεις και παρουσιάσεις ΩΡΛ θεμάτων και περιστατικών.
 
 <br/>
+<br/>
+
+![partnerships image](partnerships.jpg)
+<br/>
+<br/>
 
 #####<u>ΔΙΑΛΕΞΕΙΣ ΣΤΗ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ:</u>
 
