@@ -4,16 +4,13 @@ import { Link as RRNavLink } from 'gatsby'
 class ListGroupCollapse extends React.Component {
     constructor(props) {
         super(props)
-    
+
         this.toggle = this.toggle.bind(this)
-        this.state = {
-          isOpen: this.props.open,
-        }
-      }
+        this.state = { isOpen: this.props.open }
+    }
+
     toggle() {
-        this.setState({
-          isOpen: !this.state.isOpen,
-        });
+        this.setState({ isOpen: !this.state.isOpen });
     }
 
     render() {

@@ -6,7 +6,13 @@ import { Container, Row, Col } from 'reactstrap'
 import ServiceData from '../../data/servicesPageData'
 const { service } = ServiceData;
 const Services = (props) => {
-    const anchor = props.location.state.anchor
+    let  _props$location$state;
+    const anchor = props.location.state == null
+                   ? void 0
+                   : (_props$location$state = props.location.state) == null
+    ? void 0
+    : _props$location$state.anchor;
+        
     return(
         <Layout>
             <SEO title="Υπηρεσίες" />
