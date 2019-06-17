@@ -4,6 +4,7 @@ const service = {
         {
             title: 'Εργαστήριο Αλλεργικής Ρινίτιδας & Ρινολογίας',
             id: 'laboratory-of-allergic-rhinitis-and-rhinology',
+            anchor: '#laboratory-of-allergic-rhinitis-and-rhinology',
             subservices:[
                 {
                     title: 'Αλλεργικά Τεστ (Skin Prick Test)',
@@ -56,6 +57,7 @@ const service = {
         {
             title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροωτολογίας',
             id: 'laboratory-of-otology-ancology-neurothology',
+            anchor: '#laboratory-of-otology-ancology-neurothology',
             subservices:[
                 {
                     title: 'Διερεύνηση Ιλίγγου',
@@ -99,6 +101,7 @@ const service = {
         {
             title: 'Ιατρείο Ροχαλητού και Αποφρακτικής Υπνικής Άπνοιας',
             id: 'snoring-surgery-and-obstructive-sleep-apnoea',
+            anchor: 'snoring-surgery-and-obstructive-sleep-apnoea',
             subservices:[
                 {
                     title: 'Εξατομικευμένη διερεύνηση Ροχαλητου - Άπνοιας και σχεδιασμός Θεραπευτικού Πλάνου',
@@ -151,6 +154,7 @@ const service = {
         {
             title: 'Ιατρειο Ογκολογίας Κεφαλης και Τραχήλου',
             id: 'head-and-neck-med',
+            anchor: '#head-and-neck-med',
             subservices:[
                 {
                     title: 'Ενδοσκοπικός έλεγχος με Βίντεο καταγραφή ώτων, ρινός, φάρυγγος, λάρυγγος και ανώτερου οισοφάγου Ενηλίκων',
@@ -189,6 +193,7 @@ const service = {
         {
             title: 'Φωνιατρική & Λαρυγγολογία - Διερεύνηση Δυσφωνίας',
             id: 'phoniatric-and-laryngology-investigate-dysphonia',
+            anchor: '#phoniatric-and-laryngology-investigate-dysphonia',
             subservices:[
                 {
                     title: 'Διερεύνηση Δυσφωνίας - Βράγχους Φωνής',
@@ -220,6 +225,7 @@ const service = {
         {
             title: 'Ιατρειο Κατάποσης',
             id: 'swallowing-clinic',
+            anchor: '#swallowing-clinic',
             subservices:[
                 {
                     title: 'Δοκιμασία Ελέγχου Κατάποσης (FEES)'
@@ -236,6 +242,7 @@ const service = {
         {
             title: 'Γενική Ωτορινολαρυγγολογία & Επείγοντα Περιστατικά',
             id: 'general-otorhinolaryngology-and-emergencies',
+            anchor: '#general-otorhinolaryngology-and-emergencies',
             subservices:[
                 {
                     title: 'Ακοόγραμμα'
@@ -307,6 +314,7 @@ const service = {
         {
             title: 'Μικροεπεμβάσεις στο Ιατρείο',
             id: 'micro-interventions',
+            anchor: '#micro-interventions',
             subservices:[
                 {
                     title: 'Το ιατρείο διαθέτει την κατάλληλη υλικοτεχνική υποδομή και τεχνολογικό εξοπλισμό και ακολουθεί όλες'+

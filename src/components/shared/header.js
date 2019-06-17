@@ -56,7 +56,7 @@ class Header extends Component {
                           {menuitem.title}
                           <DropdownMenu left="true">
                             {menuitem.sublinks.map((sublink, index) => {
-                              return <DropdownItem key={index} tag={RRNavLink} to={sublink.url}>{sublink.title}</DropdownItem>
+                              return <DropdownItem key={index} tag={RRNavLink} to={sublink.url} state={{ anchor: sublink.anchor }}>{sublink.title}</DropdownItem>
                             })}
                           </DropdownMenu>
                         </DropdownToggle>

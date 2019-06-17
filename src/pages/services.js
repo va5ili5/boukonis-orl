@@ -5,22 +5,24 @@ import SEO from '../components/seo'
 import { Container, Row, Col } from 'reactstrap'
 import ServiceData from '../../data/servicesPageData'
 const { service } = ServiceData;
-const Services = () => (
-    <Layout>
-        <SEO title="Υπηρεσίες" />
-        <section className="services mt-5">
-            <Container>
-                <Row>
-                    <Col md={12}>
-                        <h3>{service.title}</h3>
-                            {service.services.map((serviceItem, index) => {
-                                return <ListGroupCollapse key={index} items={serviceItem}/>
-                            })}
-                    </Col>
-                </Row>
-            </Container>
-        </section>
-    </Layout>
-)
-
+const Services = (props) => {
+    const anchor = props.location.state.anchor
+    return(
+        <Layout>
+            <SEO title="Υπηρεσίες" />
+            <section className="services mt-5">
+                <Container>
+                    <Row>
+                        <Col md={12}>
+                            <h3>{service.title}</h3>
+                                {service.services.map((serviceItem, index) => {
+                                    return <ListGroupCollapse key={index} items={serviceItem} open={ anchor === serviceItem.anchor }/>
+                                })}
+                        </Col>
+                    </Row>
+                </Container>
+            </section>
+        </Layout>
+    )
+                        }
 export default Services

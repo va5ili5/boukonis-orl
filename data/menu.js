@@ -1,85 +1,104 @@
 const servicesLinks = [
     {
         title: 'Εργαστήριο Αλλεργικής Ρινίτιδας & Ρινολογίας', 
-        url:  '/services#laboratory-of-allergic-rhinitis-and-rhinology'
+        url:  '/services',
+        anchor: '#laboratory-of-allergic-rhinitis-and-rhinology'
     },
     {
         title: 'Εργαστήριο Ωτολογίας - Ακοολογίας - Νευροώτολγίας',
-        url:  '/services#laboratory-of-otology-ancology-neurothology'
+        url:  '/services',
+        anchor: '#laboratory-of-otology-ancology-neurothology'
     },
     {
         title: 'Ιατρείο Ροχαλητού και Αποφρακτικής Υπνικής Άπνοιας',
-        url:  '/services#snoring-surgery-and-obstructive-sleep-apnoea'
+        url:  '/services',
+        anchor: 'snoring-surgery-and-obstructive-sleep-apnoea'
     },
     {
         title: 'Ιατρείο Κεφαλής & Τραχήλου',
-        url:  '/services#head-and-neck-med'
+        url:  '/services',
+        anchor: '#head-and-neck-med'
     },
     {
         title: 'Φωνιατρική & Λαρυγγολογία - Διερεύνηση Δυσφωνίας',
-        url:  '/services#phoniatric-and-laryngology-investigate-dysphonia'
+        url:  '/services',
+        anchor: '#phoniatric-and-laryngology-investigate-dysphonia'
     },
     {
         title: 'Ιατρείο Κατάπωσης',
-        url:  '/services#swallowing-clinic'
+        url:  '/services',
+        anchor: '#swallowing-clinic'
     },
     {
         title: 'Γενική Ωτορινολαρυγγολογία & Επείγοντα Περιστατικά',
-        url:  '/services#general-otorhinolaryngology-and-emergencies'
+        url:  '/services',
+        anchor: '#general-otorhinolaryngology-and-emergencies'
     },
     {
         title: 'Μικροεπεμβάσεις στο Ιατρείο',
-        url:  '/services#micro-interventions'
+        url:  '/services',
+        anchor: '#micro-interventions'
     }
 ];
 
 const paidoorlLinks = [
     {
         title: 'Παίδο-ΩΡΛ Κλινική Εξέταση',
-        url:  '/paidoorl#paidiatricorl-clinical-examination'
+        url:  '/paidoorl',
+        anchor: '#paidiatricorl-clinical-examination'
     },
     {
         title: 'Παιδο-ΩΡΛ Χειρουργικές Επεμβάσεις', 
-        url:  '/paidoorl#paidiatricorl-surgeries'
+        url:  '/paidoorl',
+        anchor: '#paidiatricorl-surgeries'
     }
 ];
 
 const surgerieslLinks = [
     {
         title: 'Ενδοσκοπική Χειρουργική Ρινός & Παραρρινίων – FESS',
-        url: '/surgeries#fess'
+        url: '/surgeries',
+        anchor: '#fess'
     },
     {
         title: 'Ρινοπλαστική - Διαφραγματοπλαστική',
-        url: '/surgeries#rhinoplastic'
+        url: '/surgeries',
+        anchor: '#rhinoplastic'
     },
     {
         title: 'Χειρουργική Υπνικής Άπνοιας & Ροχαλητού',
-        url: '/surgeries#snoring-and-sleep-apnoea-surgery'
+        url: '/surgeries',
+        anchor: '#snoring-and-sleep-apnoea-surgery'
     },
     {
         title: 'Χειρουργική Κεφαλής και Τραχήλου',
-        url: '/surgeries#head-and-neck-surgery'
+        url: '/surgeries',
+        anchor: '#head-and-neck-surgery'
     },
     {
         title: 'Φωνομικροχειρουργική',
-        url: '/surgeries#phonosurgery'
+        url: '/surgeries',
+        anchor: '#phonosurgery'
     },
     {
         title: 'Οισοφαγοσκόπηση, Φαρυγγοσκόπηση, Πανενδοσκόπηση',
-        url: '/surgeries#oesophagoscopy-pharyngoscopy-panendoscopy'
+        url: '/surgeries',
+        anchor: '#oesophagoscopy-pharyngoscopy-panendoscopy'
     },
     {
         title: 'Ωτοχειρουργική',
-        url: '/surgery/ear-surgery'
+        url: '/surgery',
+        anchor: '#ear-surgery'
     },
     {
         title: 'Πλαστική Χειρουργική Προσώπου - Facial Plastic Surgery',
-        url: '/surgery/facial-plastic-surgery'
+        url: '/surgery',
+        anchor: '#facial-plastic-surgery'
     },
     {
         title: 'Μικροεπεμβάσεις στο Ιατρείο',
-        url:  '/surgery#micro-interventions'
+        url:  '/surgery',
+        anchor: '#micro-interventions'
     }
 ];
 

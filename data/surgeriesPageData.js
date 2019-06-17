@@ -4,6 +4,7 @@ const surgeries = {
         {
             title: 'Ενδοσκοπική Χειρουργική Ρινός & Παραρρινίων - FESS',
             id: 'fess',
+            anchor: '#fess',
             subservices:[
                 {
                     title: 'Χειρουργική Παραρρινίων Κόλπων (Full House FESS), για χρόνια ρινοκολπίτιδα, πολύποδες ρινός, μυκητιασική ρινοκολπίτιδα',
@@ -55,6 +56,7 @@ const surgeries = {
         {
             title: 'Ρινοπλαστική - Διαφραγματοπλαστική',
             id: 'rhinoplastic',
+            anchor: '#rhinoplastic',
             subservices:[
                 {
                     title: 'Λειτουργική και Αισθητική Ρινοπλαστική, με Ανοιχτή (Εξωτερική) και Κλειστή (Ενδορρινική) Προσπέλαση',
@@ -97,6 +99,7 @@ const surgeries = {
         {
             title: 'Χειρουργική Υπνικής Άπνοιας & Ροχαλητού',
             id: 'snoring-and-sleep-apnoea-surgery',
+            anchor: '#snoring-and-sleep-apnoea-surgery',
             subservices:[
                 {
                     title: 'Εξειδίκευση σε Χειρουργικές επεμβάσεις Ρινός, Φάρυγγος και Βάσης Γλώσσας',
@@ -146,6 +149,7 @@ const surgeries = {
         {
             title: 'Χειρουργική Κεφαλής και Τραχήλου',
             id: 'head-and-neck-surgery',
+            anchor: '#head-and-neck-surgery',
             subservices:[
                 {
                     title: 'Χειρουργική παροχέτευση Αποστημάτων Τραχήλου'
@@ -200,6 +204,7 @@ const surgeries = {
         {
             title: 'Φωνομικροχειρουργική',
             id: 'phonosurgery',
+            anchor: '#phonosurgery',
             subservices:[
                 {
                     title: 'LASER ογκο-μικροχειρουργική Λάρυγγα',
@@ -218,6 +223,7 @@ const surgeries = {
         {
             title: 'Οισοφαγοσκόπηση, Φαρυγγοσκόπηση, Πανενδοσκόπηση',
             id: 'oesophagoscopy-pharyngoscopy-panendoscopy',
+            anchor: '#oesophagoscopy-pharyngoscopy-panendoscopy',
             subservices:[
                 {
                     title: 'Άκαμπτη Οισοφαγοσκόπιση και Βιοψία ύποπτων βλαβών',
@@ -252,6 +258,7 @@ const surgeries = {
         {
             title: 'Ωτοχειρουργική',
             id: 'ear-surgery',
+            anchor: '#ear-surgery',
             subservices:[
                 {
                     title: 'Μυριγγοτομή'
@@ -279,6 +286,7 @@ const surgeries = {
         {
             title: 'Πλαστική Χειρουργική Προσώπου - Facial Plastic Surgery',
             id: 'facial-plastic-surgery',
+            anchor: '#facial-plastic-surgery',
             subservices:[
                 {
                     title: 'Ωτοπλαστική'
@@ -306,6 +314,7 @@ const surgeries = {
         {
             title: 'Μικροεπεμβάσεις στο Ιατρείο',
             id: 'micro-interventions',
+            anchor: '#micro-interventions',
             subservices:[
                 {
                     title: 'Το ιατρείο διαθέτει την κατάλληλη υλικοτεχνική υποδομή και τεχνολογικό εξοπλισμό και ακολουθεί όλες'+

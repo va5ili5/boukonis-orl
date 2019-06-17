@@ -4,6 +4,7 @@ const paidoOrl = {
         {
             title: 'Παίδο-ΩΡΛ Κλινική Εξέταση',
             id: 'paidiatricorl-clinical-examination',
+            anchor: '#paidiatricorl-clinical-examination',
             subservices:[
                 {
                     title: 'Πλήρως εξοπλισμένο εργαστήριο Ακοολογίας - Νευροωτολογίας και Ενδοσκοπήσεων, όπου διενεργούνται όλες οι απαραίτητες διαγνωστικές εξετάσεις σε παιδιά όλων των ηλικιών'
@@ -91,6 +92,7 @@ const paidoOrl = {
         {
             title: 'Παιδο-ΩΡΛ Χειρουργικές Επεμβάσεις',
             id: 'paidiatricorl-surgeries',
+            anchor: '#paidiatricorl-surgeries',
             subservices:[
                 {
                     title:  'Ωτοπλαστική - Πλαστική αποκατάσταση Αφεστώτων Ώτων (πεταχτά αυτιά)'
