@@ -1,5 +1,5 @@
 import React from 'react';
-import { UncontrolledCollapse, Card, CardHeader, CardBody, ListGroup, ListGroupItem } from 'reactstrap';
+import { Collapse, Card, CardHeader, CardBody, ListGroup, ListGroupItem } from 'reactstrap';
 import { Link as RRNavLink } from 'gatsby'
 class ListGroupCollapse extends React.Component {
     constructor(props) {
@@ -18,7 +18,7 @@ class ListGroupCollapse extends React.Component {
         return (
             <Card style={{ marginBottom: '1rem', border:'1px solid #00944D' }}>
                 <CardHeader id={item.id} style={{backgroundColor:'#00944D', color:'#FFF', cursor:'pointer'}} onClick={this.toggle}>{item.title}</CardHeader>
-                <UncontrolledCollapse toggler={"#"+item.id} isOpen={this.state.isOpen}>
+                <Collapse toggler={"#"+item.id} isOpen={this.state.isOpen}>
                         <CardBody>
                             <ListGroup>
                                 {item.subservices.map((subservice, index) => {
@@ -35,7 +35,7 @@ class ListGroupCollapse extends React.Component {
                                 })}
                         </ListGroup>
                         </CardBody>
-                </UncontrolledCollapse>
+                </Collapse>
             </Card>
         );
     }
