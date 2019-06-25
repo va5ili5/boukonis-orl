@@ -45,6 +45,7 @@ const About = ({ data }) => {
               {about.text.map((textLine, index) => {
                 return <p key={index}>{textLine}</p>
               })}
+              <p className="text-underline font-italic" style={{color: '#00944d', fontWeight: '400'}}>Ιδιωτικό Ιατρείο:</p>
               <ListGroup className="contactDetails">
                 <ListGroupItem
                   tag={RRNavLink}
