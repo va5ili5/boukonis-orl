@@ -27,7 +27,7 @@ const Footer = () => (
               </Media>
         </NavbarBrand>
         <ListGroup>
-        <ListGroupItem className="bg-dark border-0" style={{color:'#999999'}}><FaMapMarkerAlt size={12} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.address}</ListGroupItem>
+        <ListGroupItem className="bg-dark border-0" style={{color:'#999999'}} tag={RRNavLink} to='./contact'><FaMapMarkerAlt size={12} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.address}</ListGroupItem>
         <ListGroupItem tag="a" href="tel:2130575052" className="bg-dark border-0" style={{color:'#999999'}}><FaPhone size={12} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.phone}</ListGroupItem>
         <ListGroupItem tag="a" href="tel:6947556211" className="bg-dark border-0" style={{color:'#999999'}}><FaMobileAlt size={12} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.mobile}</ListGroupItem>
         <ListGroupItem tag="a" href="mailto:kostasboukonis@gmail.com" className="bg-dark border-0" style={{color:'#999999'}}><FaEnvelope size={14} style={{marginRight:'10px', verticalAlign:'unset'}}/>{about.contactDetails.email}</ListGroupItem>

@@ -103,30 +103,27 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Εξειδίκευση σε Χειρουργικές επεμβάσεις Ρινός, Φάρυγγος και Βάσης Γλώσσας',
-                    url: 'articles/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'Νεότερες μέθοδοι Σταφυλο-Υπερώιο-Πλαστικής Celon & Procut Palatoplasty',
-                    url: 'articles/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'Επεμβάσεις Βάσης Γλώσσης και Υπερώας με Ραδιοσυχνότητες (Somnoplasty)',
-                    url: 'articles/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'LASER Φαρυγγο-Σταφυλο-Υπερωιο-Πλαστική (LAUP)',
-                    url: 'articles/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
-                    title: 'Οργάνωση δοκιμασίας Sleep Nasendoscopy (Drug Induced Sleep Endoscopy)'
-                },
-                {
-                    title: 'Αμυγδαλεκτομή & Ενδοσκοπική Αδενοειδεκτομή',
-                    url: 'surgeries/tonsillectomy'
+                    title: 'Οργάνωση δοκιμασίας Sleep Nasendoscopy (Drug Induced Sleep Endoscopy)',
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'Φαρυγγο-Πλαστική (Expansion Sphincter Pharyngoplasty, Relocation Pharyngoplasty, Lateral Pharyngoplasty)',
-                    url: 'articles/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'Ενδοσκοπική Αδενοειδεκτομή',
@@ -153,10 +150,6 @@ const surgeries = {
             subservices:[
                 {
                     title: 'Χειρουργική παροχέτευση Αποστημάτων Τραχήλου'
-                },
-                {
-                    title: 'Αμυγδαλεκτομη και Ενδοσκοπικη Αδενοειδεκτομη',
-                    url: 'surgeries/tonsillectomy'
                 },
                 {
                     title: 'Τραχειοστομία'

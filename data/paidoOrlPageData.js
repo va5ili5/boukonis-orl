@@ -110,11 +110,11 @@ const paidoOrl = {
                 },
                 {
                     title:  'Ωτο-ενδοσκόπηση & διερεύνηση Βαρηκοΐας και Εκκριτικής Ωτίτιδας',
-                    url: 'articles/articles/glue-ears'
+                    url: 'articles/glue-ears'
                 },
                 {
                     title:  'Ενδοσκοπική τοποθέτηση σωληνίσκων αερισμού',
-                    url: 'articles/articles/glue-ears'
+                    url: 'articles/glue-ears'
                 },
                 {
                     title:  'Αφαίρεση ξένου σώματος'
@@ -131,10 +131,6 @@ const paidoOrl = {
                 {
                     title: 'Χειρουργική αντιμετώπιση Ροχαλητού και Άπνοιας',
                     url: 'articles/osa-children'
-                },
-                {
-                    title: 'Αμυγδαλεκτομή',
-                    url: 'surgeries/tonsillectomy'
                 }
             ]
         }

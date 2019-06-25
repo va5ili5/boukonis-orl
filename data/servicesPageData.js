@@ -8,11 +8,11 @@ const service = {
             subservices:[
                 {
                     title: 'Αλλεργικά Τεστ (Skin Prick Test)',
-                    url: '/articles/allergic-rhinitis'
+                    url: 'articles/allergic-rhinitis'
                 },
                 {
                     title: 'Θεραπεία Απευαισθητοποίησης',
-                    url: '/articles/allergic-rhinitis'
+                    url: 'articles/allergic-rhinitis'
                 },
                 {
                     title: 'Διερεύνηση Διαταραχών Όσφρησης & Ανοσμίας (Sniffin Sticks)'
@@ -24,29 +24,27 @@ const service = {
                     title: 'Διερεύνηση χρόνιου βήχα'
                 },
                 {
-                    title: 'Έλεγχος έσω ρινικής βαλβίδας'
-                },
-                {
                     title: 'Συρρίκνωση υπερτροφικών ρινικών κογχών με Ραδιοσυχνότητες'
                 },
                 {
                     title: 'Διερεύνηση Χρόνιας Ρινοκολπίτιδας',
-                    url: '/surgeries/fess'
+                    url: 'surgeries/fess'
                 },
                 {
-                    title: 'Διερεύνηση χρόνιων ρινίτιδων'
+                    title: 'Διερεύνηση χρόνιων ρινίτιδων',
+                    url: 'articles/allergic-rhinitis'
                 },
                 {
                     title: 'Διερεύνηση Αλλεργικής Ρινίτιδας και Μη-Αλλεργικής Ρινίτιδας',
-                    url: '/articles/allergic-rhinitis'
+                    url: 'articles/allergic-rhinitis'
                 },
                 {
                     title: 'Ανάλυση εξωτερικών χαρακτηριστικών της μύτης',
-                    url: '/surgeries/functional-septorhinoplasty'
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
                     title: 'Έλεγχος έσω ρινικής βαλβίδας',
-                    url: '/surgeries/functional-septorhinoplasty'
+                    url: 'surgeries/functional-septorhinoplasty'
                 },
                 {
                     title: 'Ενδοσκοπικός έλεγχος ρινικής απόφραξης - Σκολιωτικό Ρινικό Διάφραγμα και Υπερτροφία Κάτω Ρινικών Κογχών',
@@ -61,7 +59,7 @@ const service = {
             subservices:[
                 {
                     title: 'Διερεύνηση Ιλίγγου',
-                    url: '/articles/bppv'
+                    url: 'articles/bppv'
                 },
                 {
                     title: 'Έλεγχος Ωταλγίας, Βαρηκοΐας, Εμβοών, Ιλίγγου'
@@ -71,7 +69,7 @@ const service = {
                 },
                 {
                     title: 'Διαγνωστικές δοκιμασίες και θεραπεία Ιλίγγου Θέσεως',
-                    url: '/articles/bppv'
+                    url: 'articles/bppv'
                 },
                 {
                     title: 'Ωτο-μικροσκόπιση'
@@ -90,11 +88,11 @@ const service = {
                 },
                 {
                     title: 'Διερεύνηση Εμβοών',
-                    url: '/articles/tinnitus'
+                    url: 'articles/tinnitus'
                 },
                 {
                     title: 'Διερεύνηση Υπερακουσίας',
-                    url: '/articles/hyperacusis'
+                    url: 'articles/hyperacusis'
                 }
             ]
         },
@@ -105,7 +103,7 @@ const service = {
             subservices:[
                 {
                     title: 'Εξατομικευμένη διερεύνηση Ροχαλητου - Άπνοιας και σχεδιασμός Θεραπευτικού Πλάνου',
-                    url: '/surgeries/snoring-osa'
+                    url: 'surgeries/snoring-osa'
                 },
                 {
                     title: 'Ιατρικό ιστορικό, ΩΡΛ ιστορικό και ειδικό ιστορικό ροχαλητού/άπνοιας'
@@ -158,27 +156,31 @@ const service = {
             subservices:[
                 {
                     title: 'Ενδοσκοπικός έλεγχος με Βίντεο καταγραφή ώτων, ρινός, φάρυγγος, λάρυγγος και ανώτερου οισοφάγου Ενηλίκων',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
+                },
+                {
+                    title: 'LASER Μικρο-Χειρουργική Ογκολογία Κεφαλής και Τραχήλου',
+                    url: 'surgeries/microlaryngoscopy'
                 },
                 {
                     title: 'Διερεύνηση Τραχηλικών Διογκώσεων & Λεμφαδενοπάθειας',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Βιοψία Λευκοπλακίας και ύποπτων διογκώσεων – εξελκώσεων ανώτερου αναπνευστικού',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Έλεγχος θυρεοειδούς, Διερεύνηση Όζων – Βρογχοκήλης',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Έλεγχος Σιελογόνων Αδένων',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Διερεύνηση Αιμόπτυσης, Δυσφαγίας, Δύσπνοιας, Δυσφωνίας',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Ενδοσκόπηση Ρινοφάρυγγα για έλεγχο Αιμορραγίας, Εξελκώσεων, Διογκώσεων',
@@ -197,18 +199,22 @@ const service = {
             subservices:[
                 {
                     title: 'Διερεύνηση Δυσφωνίας - Βράγχους Φωνής',
-                    url: '/articles/laryngitis'
+                    url: 'articles/laryngitis'
+                },
+                {
+                    title: 'LASER Μικρο-Χειρουργική Ογκολογία Κεφαλής και Τραχήλου',
+                    url: 'surgeries/microlaryngoscopy'
                 },
                 {
                     title: 'Ενδοσκόπηση ανώτερου αναπνευστικού'
                 },
                 {
                     title: 'Έλεγχος Φωνητικών Χορδών',
-                    url: '/articles/laryngitis'
+                    url: 'articles/laryngitis'
                 },
                 {
                     title: 'Καταγραφή σε εικόνα και βίντεο ύποπτων βλαβών',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Λήψη βιοψίας'
@@ -218,7 +224,7 @@ const service = {
                 },
                 {
                     title: 'Φωνομικροχειρουργική',
-                    url: '/surgeries/microlaryngoscopy'
+                    url: 'surgeries/microlaryngoscopy'
                 }
             ]
         },
@@ -232,7 +238,7 @@ const service = {
                 },
                 {
                     title: 'Ενδοσκοπικός Έλεγχος Υποφάρυγγα & Ανώτερου Οισοφάγου',
-                    url: '/articles/head-and-neck-cancer'
+                    url: 'articles/head-and-neck-cancer'
                 },
                 {
                     title: 'Διερεύνηση και Θεραπεία Λαρυγγο-Φαρυγγικής Παλινδρόμησης'
