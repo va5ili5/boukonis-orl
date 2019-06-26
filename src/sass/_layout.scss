@@ -65,3 +65,15 @@
         color: #00944D;
     }
 }
+
+.content{
+    h5{
+        color: #00944D;
+    }
+    a{
+        color: #00944D;
+        &:hover{
+            color: #00944D;
+        }
+    }
+}
