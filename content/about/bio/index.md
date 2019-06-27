@@ -7,9 +7,9 @@ slug: 'bio'
 #####<u>ΕΚΠΑΙΔΕΥΣΗ ΚΑΙ ΜΕΤΕΚΠΑΙΔΕΥΣΗ:</u><br/><br/>
 * Χειρουργική Εξειδίκευση και Μετεκπαίδευση στο Λονδίνο, Μεγάλη Βρετανία **2013 – 2017**<br/><br/>
 
-Εκπαίδευση στη Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Χειρουργική Ροχαλητού και Άπνοιας, Παιδο - ΩΡΛ, Χειρουργική Κεφαλής και Τραχήλου.<br/>
+Εκπαίδευση στη Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Χειρουργική Ροχαλητού και Άπνοιας, Παιδο - ΩΡΛ, LASER Μικρο-Χειρουργική Κεφαλής και Τραχήλου.<br/>
 
-**Queen’s Hospital London, BHR University Hospitals NHS Trust, London United Kingdom Eastbourne District General Hospital, East Sussex, United Kingdom**
+**Queen’s Hospital London, BHR University Hospitals NHS Trust, London United Kingdom<br/>Eastbourne District General Hospital, East Sussex, United Kingdom**
 
 <br/>
 
@@ -35,7 +35,11 @@ Queen Mary University of London - Bart's and the London NHS Trust
 LONDON, UNITED KINGDOM, June 2014
 
 <br/>
+<br/>
 
+![courses uni image](courses_uni.JPG)
+<br/>
+<br/>
 
 * **Ετήσια Αξιολόγηση APPRAISAL και REVALIDATION από το GMC στη Μεγάλη Βρετανία 2013 – 2017**:<br/><br/>
     Επιτυχής συμμετοχή στο πρόγραμμα αξιολόγησης Ιατρών του Ιατρικού Συλλόγου της Μεγάλης Βρετανίας με ετήσια πιστοποίηση συνεχιζόμενης εκπαίδευσης, διατήρησης και επέκτασης της ιατρικής γνώσης.
@@ -57,6 +61,9 @@ LONDON, UNITED KINGDOM, June 2014
 <br/>
 <br/>
 
+![partnerships image](partnerships.jpg)
+<br/>
+<br/>
 
 #####<u>ΕΠΑΓΓΕΛΜΑΤΙΚΗ ΕΜΠΕΙΡΙΑ:</u><br/><br/>
 
@@ -83,6 +90,10 @@ LONDON, UNITED KINGDOM, June 2014
   **East Sussex Healthcare NHS Trust, United Kingdom**<br/> 
   Έμμισθη Θέση Επιμελητή ΩΡΛ ,  2013 – 2014
 
+<br/>
+<br/>
+
+![bio 6 image](6.jpg)
 <br/>
 <br/>
 
@@ -139,6 +150,10 @@ LONDON, UNITED KINGDOM, June 2014
 <br/>
 <br/>
 
+![bio 5 image](5.jpg)
+<br/>
+<br/>
+
 
 #####<u>ΔΙΔΑΚΤΙΚΟ ΚΑΙ ΕΚΠΑΙΔΕΥΤΙΚΟ ΕΡΓΟ ΣΤΗ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ:</u><br/><br/>
 **<u>Εκπαιδευτής Χειρουργός των Ειδικευόμενων στην ΩΡΛ Ιατρών:</u>**<br/><br/>
@@ -171,9 +186,10 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
 <br/>
 <br/>
 
-![partnerships image](partnerships.jpg)
+![bio 7 image](7.jpg)
 <br/>
 <br/>
+
 
 #####<u>ΔΙΑΛΕΞΕΙΣ ΣΤΗ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ:</u><br/><br/>
 **Σε Ειδικούς ΩΡΛ & Ειδικευόμενους ΩΡΛ Ιατρούς και Φοιτητές Ιατρικής**<br/><br/>
@@ -210,6 +226,11 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
     At Queen's Hospital London, Lecture Theatre LONDON UNITED KINGDOM, October 2014<br/>
 * **Laryngeal Cancer involving the Anterior Commissure**<br/>
     At Eastbourne District General Hospital (EDGH) Lecture Theatre & Training Centre, UNITED KINGDOM, October 2013<br/>
+
+<br/>
+<br/>
+
+![6b image](6b.jpg)
 <br/>
 <br/>
 
@@ -219,27 +240,33 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
 * Συμμετοχή σε Εξειδικευμένα Εκπαιδευτικά Χειρουργικά Courses - Hands on Workshops - των Ιατρικών Σχολών των Πανεπιστημίων του Λονδίνου **"Kings College London"** και **"Queen       Mary University of London"** και της Ιατρικής σχολής του Πανεπιστημίου του Liverpool.<br/><br/>
   Advanced Surgical Training Courses σε πτωματικά παρασκευάσματα στην Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Ωτοχειρουργική και Χειρουργική Κεφαλής και Τραχήλου.
 
+  <br/>
 
 **- Trans-Oral LASER Microsurgery for Head and Neck Cancer , “hands-on” Cadaver Dissection Training Course**<br/>
     University of Liverpool - School of Medicine, Aintree University Hospital NHS Foundation Trust
     Liverpool, UNITED KINGDOM, June 2019
 
 **- Temporal Bone Dissection Course, "hands-on" Cadaver Dissection Training Course**<br/>
-    Guy's & St Thomas' NHS Trust, Kings College London, June 2016<br/>
-    LONDON UNITED KINGDOM
+    Guy's & St Thomas' NHS Trust, Kings College London<br/>
+    LONDON UNITED KINGDOM, June 2016
 
 **- Rhinoplasty Practical Workshop, "hands-on" Cadaver Dissection Training Course**<br/>
-    Bart's and the London NHS Trust, Queen Mary University London, June 2015<br/>
-    LONDON UNITED KINGDOM
+    Bart's and the London NHS Trust, Queen Mary University London<br/>
+    LONDON UNITED KINGDOM, June 2015
 
 **- F.E.S.S. Practical Workshop, "hands-on" Cadaver Dissection Training Course**<br/>
-    Bart's and the London NHS Trust, Queen Mary University London, June 2014<br/>
-    LONDON UNITED KINGDOM
+    Bart's and the London NHS Trust, Queen Mary University London<br/>
+    LONDON UNITED KINGDOM, June 2014
 
 **- Head & Neck Surgery Practical Workshop, "hands-on" Cadaver Dissection Training Course**<br/>
-    Bart's and the London NHS Trust, Queen Mary University London, June 2014<br/>
-    LONDON UNITED KINGDOM
+    Bart's and the London NHS Trust, Queen Mary University London<br/>
+    LONDON UNITED KINGDOM, June 2014
 
+<br/>
+<br/>
+
+![4 image](4.jpg)
+<br/>
 <br/>
 
 ######<u>TRAINING COURSES ΣΤΗ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ:</u><br/><br/>
@@ -274,7 +301,12 @@ LONDON UNITED KINGDOM August 22<sup>th</sup>, 2013<br/>
 * 20<sup>th</sup> PanHellenic Medical Seminar of Otology, Audiology and Neurotology "Updates in Neurotology"<br/> at Divani Caravel Hotel, Athens Greece, March 13<sup>th</sup>, 2010<br/><br/>
 * 15<sup>th</sup> PanHellenic Otorhinolaryngologic - Head & Neck Surgery Congress<br/> at Creta Maris Hotel, Iraklion Greece, October 21<sup>st</sup> - 25<sup>th</sup>, 2009<br/><br/>
 * Greek ENT Society Conference "Neck Masses: Diagnosis & Treatment"<br/> at Athens, Greece December 5<sup>th</sup>, 2009<br/><br/>
-* Greek ENT Society Conference "Updates in Middle Ear Surgery & Prevention of Complications"<br/> at Athens Greece, September 26<sup>th</sup>, 2009<br/>
+* Greek ENT Society Conference "Updates in Middle Ear Surgery & Prevention of Complications"<br/> at Athens Greece, September 26<sup>th</sup>, 2009
+
+<br/>
+<br/>
+
+![4b image](4b.jpg)
 <br/>
 <br/>
 
@@ -316,6 +348,11 @@ LONDON UNITED KINGDOM August 22<sup>th</sup>, 2013<br/>
     Balatsouras D, Ablonitou I, Boukonis K<br/>
     16<sup>th</sup> PanHellenic Otorhinolaryngologic - Head & Neck Surgery Congress,<br/>
     Hilton Hotel, Athens, Greece, December 1<sup>st</sup> - 4<sup>th</sup>, 2011
+
+<br/>
+<br/>
+
+![3 image](3.jpg)
 <br/>
 <br/>
 
@@ -368,6 +405,9 @@ The scope of the research is to study the causes and the influence of Recurrent 
 <br/>
 <br/>
 
+![2 image](2.jpg)
+<br/>
+<br/>
 
 ######**Κωνσταντίνος Χ. Μπουκόνης**
 ######**Χειρουργός Ωτορινολαρυγγολόγος Περιστέρι**
