@@ -238,7 +238,7 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
 ######<u>ADVANCED SURGICAL TRAINING COURSES ΣΤΗ ΜΕΓΑΛΗ ΒΡΕΤΑΝΙΑ:</u><br/><br/>
 
 * Συμμετοχή σε Εξειδικευμένα Εκπαιδευτικά Χειρουργικά Courses - Hands on Workshops - των Ιατρικών Σχολών των Πανεπιστημίων του Λονδίνου **"Kings College London"** και **"Queen       Mary University of London"** και της Ιατρικής σχολής του Πανεπιστημίου του Liverpool.<br/><br/>
-  Advanced Surgical Training Courses σε πτωματικά παρασκευάσματα στην Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Ωτοχειρουργική και Χειρουργική Κεφαλής και Τραχήλου.
+  Advanced Surgical Training Courses σε πτωματικά παρασκευάσματα στην Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Ωτοχειρουργική και LASER Μικρο-Χειρουργική Κεφαλής και Τραχήλου.
 
   <br/>
 
