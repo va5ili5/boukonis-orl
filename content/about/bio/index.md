@@ -18,6 +18,10 @@ slug: 'bio'
 
 Advanced Surgical Training Courses σε πτωματικά παρασκευάσματα στην Ρινοπλαστική, Ενδοσκοπική Χειρουργική Ρινός και Παραρρινίων, Ωτοχειρουργική και Χειρουργική Κεφαλής και Τραχήλου.
 
+**- Trans-Oral LASER Microsurgery for Head and Neck Cancer , "hands-on" Cadaver Dissection Training Course**<br/>
+    University of Liverpool - School of Medicine, Aintree University Hospital NHS Foundation Trust
+    Liverpool, UNITED KINGDOM, June 2019
+
 **- Temporal Bone Dissection Course, "hands-on" Cadaver Dissection Training Course**<br/>
 Kings College London - Guy's and St. Thomas' NHS Trust
 LONDON, UNITED KINGDOM, June 2016
@@ -242,7 +246,7 @@ Queen’s Hospital, London United Kingdom και Eastbourne DGH
 
   <br/>
 
-**- Trans-Oral LASER Microsurgery for Head and Neck Cancer , “hands-on” Cadaver Dissection Training Course**<br/>
+**- Trans-Oral LASER Microsurgery for Head and Neck Cancer , "hands-on" Cadaver Dissection Training Course**<br/>
     University of Liverpool - School of Medicine, Aintree University Hospital NHS Foundation Trust
     Liverpool, UNITED KINGDOM, June 2019
 
