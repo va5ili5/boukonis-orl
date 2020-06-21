@@ -1,9 +1,9 @@
 {
   "name": "gatsby-starter-default",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Static website for Dr. Boukonis Konstantinos",
+  "version": "1.0.0",
+  "author": "Boukonis Vasilis <vasiliss_b@hotmail.com>",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "gatsby": "^2.23.7",
