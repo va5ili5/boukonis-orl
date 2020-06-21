@@ -1,4 +1,5 @@
 import React from 'react'
+import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 import Slider from '../components/home/slider'
@@ -7,7 +8,7 @@ import Clinic from '../components/home/clinic'
 import Coops from '../components/home/coops'
 import GMap from '../components/shared/gmap'
 import { Container, Row, Col } from 'reactstrap'
-import CardBox from '../components/shared/cardbox';
+import CardBox from '../components/shared/cardbox'
 const IndexPage = ({ data }) => {
   const articles = data.articles
   const surgeries = data.surgeries
@@ -27,7 +28,7 @@ const IndexPage = ({ data }) => {
           </Row>
           <Row>
             {surgeries.edges.map((carditem, i) => (
-              <CardBox key={i} cardItem={carditem} category="surgeries"/>
+              <CardBox key={i} cardItem={carditem} category="surgeries" />
             ))}
           </Row>
         </Container>
@@ -41,7 +42,7 @@ const IndexPage = ({ data }) => {
           </Row>
           <Row>
             {articles.edges.map((carditem, i) => (
-              <CardBox key={i} cardItem={carditem} category="articles"/>
+              <CardBox key={i} cardItem={carditem} category="articles" />
             ))}
           </Row>
         </Container>
@@ -50,7 +51,7 @@ const IndexPage = ({ data }) => {
         <Container>
           <Row>
             <Col md={12}>
-            <GMap/>
+              <GMap />
             </Col>
           </Row>
         </Container>
@@ -60,7 +61,9 @@ const IndexPage = ({ data }) => {
 }
 export const allQuery = graphql`
   query IndexPageQuery {
-    articles: allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/articles/"}}) {
+    articles: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/articles/" } }
+    ) {
       edges {
         node {
           id
@@ -80,7 +83,9 @@ export const allQuery = graphql`
         }
       }
     }
-    surgeries: allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/surgeries/"}}) {
+    surgeries: allMarkdownRemark(
+      filter: { fileAbsolutePath: { regex: "/surgeries/" } }
+    ) {
       edges {
         node {
           id

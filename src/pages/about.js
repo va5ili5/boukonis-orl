@@ -15,7 +15,7 @@ import {
   FaMobileAlt,
   FaEnvelope,
 } from 'react-icons/fa'
-import { Link as RRNavLink } from 'gatsby'
+import { Link as RRNavLink, graphql } from 'gatsby'
 import AboutData from '../../data/aboutPageData'
 const { about } = AboutData
 const About = ({ data }) => {
@@ -40,12 +40,21 @@ const About = ({ data }) => {
             <Col md={7}>
               <h3>{about.title}</h3>
               {about.tagline.map((tagline, index) => {
-                    return <h5 style={{ fontWeight: '400' }} key={index}>{tagline}</h5>
-                })}
+                return (
+                  <h5 style={{ fontWeight: '400' }} key={index}>
+                    {tagline}
+                  </h5>
+                )
+              })}
               {about.text.map((textLine, index) => {
                 return <p key={index}>{textLine}</p>
               })}
-              <p className="text-underline font-italic" style={{color: '#00944d', fontWeight: '400'}}>Ιδιωτικό Ιατρείο:</p>
+              <p
+                className="text-underline font-italic"
+                style={{ color: '#00944d', fontWeight: '400' }}
+              >
+                Ιδιωτικό Ιατρείο:
+              </p>
               <ListGroup className="contactDetails">
                 <ListGroupItem
                   tag={RRNavLink}
