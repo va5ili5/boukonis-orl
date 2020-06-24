@@ -1,9 +1,10 @@
 //colors
 $primary-color: #333;
-$primary-link-color: rgba($black, .7) !default;
-$primary-link-color-hover: rgba($black, .9) !default;
-
+$primary-link-color: rgba($black, 0.7) !default;
+$primary-link-color-hover: rgba($black, 0.9) !default;
+$dropdown-link-active-color: rgba($black, 0.9);
+$dropdown-link-active-bg: #f8f9fa;
 // Social Media Icons
 $fb-color: #3b5998 !default;
 $twitter-color: #00aced !default;
-$linkedin-color: #0077B5 !default;
+$linkedin-color: #0077b5 !default;

@@ -20,7 +20,7 @@ const Topbar = () => (
           <ListGroupItem
             className="d-flex align-items-center p-1 contact-link border-0"
             tag={RRNavLink}
-            to="./contact"
+            to="../../contact"
           >
             <FaMapMarkerAlt size={12} style={{ marginRight: '5px' }} />
             <span>{data.contact.address}</span>
