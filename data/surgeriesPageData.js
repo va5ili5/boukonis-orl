@@ -208,6 +208,11 @@ const surgeries = {
           title: 'Αμυγδαλεκτομή',
           url: '/surgeries/tonsillectomy',
         },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
+        },
       ],
     },
     {

@@ -153,6 +153,11 @@ const service = {
           title: 'Έλεγχος Υπερτροφίας Αμυγδαλών',
           url: '/surgeries/tonsillectomy',
         },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
+        },
       ],
     },
     {
@@ -199,6 +204,11 @@ const service = {
           title:
             'Έλεγχος Μονόπλευρης Ασύμμετρης Υπερτροφίας Αμυγδαλών - Καρκίνος Αμυγδαλής',
           url: '/surgeries/tonsillectomy',
+        },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
         },
       ],
     },
@@ -252,6 +262,11 @@ const service = {
         },
         {
           title: 'Διερεύνηση και Θεραπεία Λαρυγγο-Φαρυγγικής Παλινδρόμησης',
+        },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
         },
       ],
     },
@@ -325,6 +340,11 @@ const service = {
         },
         {
           title: 'Συρραφή θλαστικών τραυμάτων',
+        },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
         },
       ],
     },

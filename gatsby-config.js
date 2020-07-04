@@ -4,7 +4,7 @@ module.exports = {
     description: `Εξειδικευθείς εις Λονδίνο, Μεγάλη Βρετανία - Χειρουργός Ωτορινολαρυγγολόγος Περιστερι - ΤΗΛ: 2130575052 - Ιατρείο ΩΡΛ Περιστέρι Ενηλίκων και Παίδων - Δέχεται ιδιώτικά - Συνεργασία με όλες τις ιδιωτικές ασφαλιστικές - Λεωφόρος Κωνσταντινουπόλεως 63, Περιστερι - Ear Nose and Throat Surgeon - orl peristeri - Otorhinolaryngology Peristeri Athens`,
     keywords: `ΩΡΛ ΠΕΡΙΣΤΕΡΙ, Ωτορινολαρυγγολόγος Περιστέρι, ιατρός ΩΡΛ, Orilas, Orl Peristeri, orila paidia, ΜΠΟΥΚΟΝΗΣ, boukonis, παίδο-ωρλ, ωριλάς, ΩΡΛ Αθήνα, ΩΡΛ Ίλιον, ΩΡΛ Πετρούπολη, ΩΡΛ Χαϊδάρι, ΩΡΛ Αιγάλεω, Ear Nose and Throat Surgeon, Otorhinolaryngology`,
     author: `@Cons_ENTSurgeon`,
-    siteUrl: `https://boukonis-orl.gr`
+    siteUrl: `https://boukonis-orl.gr`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -31,23 +31,23 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-  {
-    resolve: `gatsby-transformer-remark`,
-    options: {
-      plugins: [
-        {
-          resolve: `gatsby-remark-images`,
-          options: {
-            // It's important to specify the maxWidth (in pixels) of
-            // the content container as this plugin uses this as the
-            // base for generating different widths of each image.
-            linkImagesToOriginal: false,
-            maxWidth: 590,
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-images`,
+            options: {
+              // It's important to specify the maxWidth (in pixels) of
+              // the content container as this plugin uses this as the
+              // base for generating different widths of each image.
+              linkImagesToOriginal: false,
+              maxWidth: 590,
+            },
           },
-        },
-      ],
+        ],
+      },
     },
-  },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -63,14 +63,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-106221999-1",
-        head: false
+        trackingId: 'UA-106221999-1',
+        head: false,
       },
     },
     `gatsby-plugin-sass`,
     'gatsby-plugin-robots-txt',
     `gatsby-plugin-sitemap`,
-    //'gatsby-plugin-offline',
-    `gatsby-plugin-netlify`
+    'gatsby-plugin-offline',
+    `gatsby-plugin-netlify`,
   ],
 }

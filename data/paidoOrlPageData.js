@@ -94,6 +94,11 @@ const paidoOrl = {
           title: 'Έλεγχος υπερτροφίας αμυγδαλών',
           url: '/surgeries/tonsillectomy',
         },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
+        },
       ],
     },
     {
@@ -142,6 +147,11 @@ const paidoOrl = {
         {
           title: 'Χειρουργική αντιμετώπιση Ροχαλητού και Άπνοιας',
           url: '/articles/osa-children',
+        },
+        {
+          title:
+            'Χρόνια Κρυπτική Αμυγδαλίτιδα - Αμυγδαλόλιθοι - Μικροβιακά Βιοφιλμ (Biofilm)',
+          url: '/articles/chronic-tonsillitis',
         },
       ],
     },
