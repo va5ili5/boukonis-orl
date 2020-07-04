@@ -13,7 +13,7 @@ const Article = ({ data }) => {
         <Container>
           <Row>
             <Col md={12}>
-              <h3>{frontmatter.title}</h3>
+              <h3 dangerouslySetInnerHTML={{ __html: frontmatter.title }}></h3>
 
               <div
                 className="content"

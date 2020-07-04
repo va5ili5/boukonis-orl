@@ -16,8 +16,8 @@ const CardBox = props => (
       <CardImg
         top
         className="img-fluid"
-        alt = { props.cardItem.node.frontmatter.title }
-        src= { props.cardItem.node.frontmatter.image.childImageSharp.fluid.src }
+        alt={props.cardItem.node.frontmatter.title}
+        src={props.cardItem.node.frontmatter.image.childImageSharp.fluid.src}
       />
       <CardBody>
         <CardTitle
@@ -27,10 +27,11 @@ const CardBox = props => (
             props.category +
             `/${kebabCase(props.cardItem.node.frontmatter.slug)}`
           }
+          dangerouslySetInnerHTML={{
+            __html: props.cardItem.node.frontmatter.title,
+          }}
           style={{ color: '#00944d', fontWeight: 'bold' }}
-        >
-          {props.cardItem.node.frontmatter.title}
-        </CardTitle>
+        ></CardTitle>
         <CardText>{props.cardItem.node.frontmatter.excerpt}</CardText>
         <Button
           tag={RRNavLink}
@@ -39,7 +40,7 @@ const CardBox = props => (
             props.category +
             `/${kebabCase(props.cardItem.node.frontmatter.slug)}`
           }
-          color ="success"
+          color="success"
         >
           Περισσότερα
         </Button>

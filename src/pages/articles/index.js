@@ -2,7 +2,7 @@ import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../../components/layout'
 import SEO from '../../components/seo'
-import CardBox from '../../components/shared/cardbox';
+import CardBox from '../../components/shared/cardbox'
 import { Container, Row, Col } from 'reactstrap'
 const IndexPage = ({ data }) => {
   const { allMarkdownRemark: articles } = data
@@ -19,7 +19,7 @@ const IndexPage = ({ data }) => {
           </Row>
           <Row>
             {articles.edges.map((carditem, i) => (
-              <CardBox key={i} cardItem={carditem} category="articles"/>
+              <CardBox key={i} cardItem={carditem} category="articles" />
             ))}
           </Row>
         </Container>
@@ -29,7 +29,7 @@ const IndexPage = ({ data }) => {
 }
 export const articlesQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(filter: {fileAbsolutePath: {regex : "\/articles/"}}) {
+    allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/articles/" } }) {
       edges {
         node {
           id
@@ -37,7 +37,7 @@ export const articlesQuery = graphql`
             title
             slug
             excerpt
-            image{
+            image {
               publicURL
               childImageSharp {
                 fluid(maxWidth: 400, maxHeight: 250) {
