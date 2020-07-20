@@ -1,8 +1,8 @@
 ---
 slug: 'turbinoplasty'
-title: 'Υπερτροφία των Ρινικών Κογχών<br/>
-Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)<br/>
-Το Σύνδρομο της "Κενής Μύτης" - "Empty Nose" Syndrome<br/>
+title: 'Υπερτροφία των Ρινικών Κογχών
+Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)
+Το Σύνδρομο της "Κενής Μύτης" - "Empty Nose" Syndrome
 Ατροφική Ρινίτιδα'
 excerpt: 'Υπερτροφία των Ρινικών Κογχών
 Ενδοσκοπική Κογχοπλαστική (Endoscopic Turbinoplasty)
