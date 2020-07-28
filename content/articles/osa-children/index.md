@@ -8,7 +8,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![osa-children image](cardImg.jpg)
+![cardImg](cardImg.jpg)
 <br/>
 <br/>
 
@@ -22,7 +22,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![osa-children image](sn2.jpg)
+![sn2](sn2.jpg)
 <br/>
 <br/>
 
@@ -34,7 +34,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![osa-children image](sn3.jpg)
+![sn3](sn3.jpg)
 <br/>
 <br/>
 
@@ -44,7 +44,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![osa-children image](sn4.jpg)
+![sn4](sn4.jpg)
 <br/>
 <br/>
 
@@ -58,7 +58,7 @@ image: 'cardImg.jpg'
 <br/>
 <br/>
 
-![osa-children image](sn5.jpg)
+![sn5](sn5.jpg)
 <br/>
 <br/>
 
